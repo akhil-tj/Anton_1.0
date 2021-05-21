@@ -5,11 +5,13 @@ import 'package:flutter/material.dart';
 class LandingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        NavBar(),
-        LandingPageBody(),
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          NavBar(),
+          LandingPageBody(),
+        ],
+      ),
     );
   }
 }
