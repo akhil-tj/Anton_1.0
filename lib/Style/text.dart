@@ -1,44 +1,100 @@
 import 'package:anton_1_0/Style/color.dart';
 import 'package:flutter/material.dart';
 
-TextStyle navbarSelectedTxt = TextStyle(
+TextStyle navbarTabletSelectedTxt = TextStyle(
+  color: orangeColor,
+  fontFamily: 'FiraCode',
+  fontWeight: FontWeight.w700,
+  fontSize: 20,
+);
+
+TextStyle navbarDesktopSelectedTxt = TextStyle(
   color: orangeColor,
   fontFamily: 'FiraCode',
   fontWeight: FontWeight.w700,
   fontSize: 22,
 );
 
-TextStyle navbarDefaultTxt = TextStyle(
+TextStyle navbarTabletDefaultTxt = TextStyle(
+  color: Colors.white,
+  fontFamily: 'FiraCode',
+  fontWeight: FontWeight.w500,
+  fontSize: 17,
+);
+
+TextStyle navbarDesktopDefaultTxt = TextStyle(
   color: Colors.white,
   fontFamily: 'FiraCode',
   fontWeight: FontWeight.w500,
   fontSize: 19,
 );
 
-TextStyle buttonTxt = TextStyle(
+TextStyle navbarDesktopBtnTxt = TextStyle(
   color: greenColor,
   fontFamily: 'FiraCode',
   fontWeight: FontWeight.w500,
   fontSize: 19,
 );
 
-TextStyle landingTxt1 = TextStyle(
+TextStyle navbarTabletBtnTxt = TextStyle(
+  color: greenColor,
+  fontFamily: 'FiraCode',
+  fontWeight: FontWeight.w500,
+  fontSize: 17,
+);
+
+TextStyle landingDesktopTxt1 = TextStyle(
   color: Colors.white,
   fontFamily: 'FiraCode',
   fontWeight: FontWeight.w800,
   fontSize: 62,
 );
 
-TextStyle landingTxt2 = TextStyle(
+TextStyle landingTabletTxt1 = TextStyle(
+  color: Colors.white,
+  fontFamily: 'FiraCode',
+  fontWeight: FontWeight.w800,
+  fontSize: 42,
+);
+
+TextStyle landingMobileTxt1 = TextStyle(
+  color: Colors.white,
+  fontFamily: 'FiraCode',
+  fontWeight: FontWeight.w800,
+  fontSize: 36,
+);
+
+TextStyle landingDesktopTxt2 = TextStyle(
   color: orangeColor,
   fontFamily: 'FiraCode',
   fontWeight: FontWeight.w800,
   fontSize: 62,
 );
 
-TextStyle h1txt = TextStyle(
+TextStyle landingTabletTxt2 = TextStyle(
+  color: orangeColor,
+  fontFamily: 'FiraCode',
+  fontWeight: FontWeight.w800,
+  fontSize: 42,
+);
+
+TextStyle landingMobileTxt2 = TextStyle(
+  color: orangeColor,
+  fontFamily: 'FiraCode',
+  fontWeight: FontWeight.w800,
+  fontSize: 36,
+);
+
+TextStyle h1Desktoptxt = TextStyle(
   color: greenColor,
   fontFamily: 'FiraCode',
   fontWeight: FontWeight.w500,
   fontSize: 24,
+);
+
+TextStyle h1Tablettxt = TextStyle(
+  color: greenColor,
+  fontFamily: 'FiraCode',
+  fontWeight: FontWeight.w500,
+  fontSize: 20,
 );

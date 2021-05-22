@@ -1,4 +1,5 @@
 import 'package:anton_1_0/View/landing_page.dart';
+import 'package:anton_1_0/navigation_drawer.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,8 +12,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        drawer: NavigationDrawer(),
         backgroundColor: Color(0xff01002D),
-        body: LandingPage(),
+        body: SafeArea(
+          child: LandingPage(),
+        ),
       ),
     );
   }
