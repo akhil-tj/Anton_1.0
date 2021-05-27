@@ -1,6 +1,5 @@
 import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Style/text.dart';
-import 'package:anton_1_0/navigation_drawer.dart';
 import 'package:flutter/material.dart';
 
 class NavbarMobile extends StatefulWidget {

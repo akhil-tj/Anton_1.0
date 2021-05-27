@@ -26,23 +26,38 @@ class _NavbarDesktopState extends State<NavbarDesktop> {
           SizedBox(
             width: 64,
           ),
-          Text(
-            'Skill',
-            style: navbarDesktopDefaultTxt,
+          TextButton(
+            onPressed: () {
+              print('Skills pressed');
+            },
+            child: Text(
+              'Skill',
+              style: navbarDesktopDefaultTxt,
+            ),
           ),
           SizedBox(
             width: 64,
           ),
-          Text(
-            'Work',
-            style: navbarDesktopDefaultTxt,
+          TextButton(
+            onPressed: () {
+              print('Work pressed');
+            },
+            child: Text(
+              'Work',
+              style: navbarDesktopDefaultTxt,
+            ),
           ),
           SizedBox(
             width: 64,
           ),
-          Text(
-            'Contact',
-            style: navbarDesktopDefaultTxt,
+          TextButton(
+            onPressed: () {
+              print('Contact pressed');
+            },
+            child: Text(
+              'Contact',
+              style: navbarDesktopDefaultTxt,
+            ),
           ),
           SizedBox(
             width: 64,

@@ -113,22 +113,27 @@ class LandingDesktop extends StatelessWidget {
               SizedBox(
                 height: 64,
               ),
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'About Me',
-                    style: h1Desktoptxt,
-                  ),
-                  SizedBox(
-                    width: 24,
-                  ),
-                  Icon(
-                    Icons.visibility_off,
-                    color: greenColor,
-                    size: 28,
-                  )
-                ],
+              TextButton(
+                onPressed: () {
+                  print('About Me pressed');
+                },
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'About Me',
+                      style: h1Desktoptxt,
+                    ),
+                    SizedBox(
+                      width: 24,
+                    ),
+                    Icon(
+                      Icons.visibility_off,
+                      color: greenColor,
+                      size: 28,
+                    )
+                  ],
+                ),
               ),
               SizedBox(
                 height: 24,

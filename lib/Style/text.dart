@@ -85,6 +85,13 @@ TextStyle landingMobileTxt2 = TextStyle(
   fontSize: 36,
 );
 
+TextStyle landingMobileTxt3 = TextStyle(
+  color: greenColor,
+  fontFamily: 'FiraCode',
+  fontWeight: FontWeight.w800,
+  fontSize: 36,
+);
+
 TextStyle h1Desktoptxt = TextStyle(
   color: greenColor,
   fontFamily: 'FiraCode',
