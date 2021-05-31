@@ -57,13 +57,6 @@ TextStyle landingTabletTxt1 = TextStyle(
   fontSize: 42,
 );
 
-TextStyle landingMobileTxt1 = TextStyle(
-  color: Colors.white,
-  fontFamily: 'FiraCode',
-  fontWeight: FontWeight.w800,
-  fontSize: 36,
-);
-
 TextStyle landingDesktopTxt2 = TextStyle(
   color: orangeColor,
   fontFamily: 'FiraCode',
@@ -76,13 +69,6 @@ TextStyle landingTabletTxt2 = TextStyle(
   fontFamily: 'FiraCode',
   fontWeight: FontWeight.w800,
   fontSize: 42,
-);
-
-TextStyle landingMobileTxt2 = TextStyle(
-  color: orangeColor,
-  fontFamily: 'FiraCode',
-  fontWeight: FontWeight.w800,
-  fontSize: 36,
 );
 
 TextStyle landingMobileTxt3 = TextStyle(
@@ -105,3 +91,5 @@ TextStyle h1Tablettxt = TextStyle(
   fontWeight: FontWeight.w500,
   fontSize: 20,
 );
+
+

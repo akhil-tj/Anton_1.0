@@ -1,3 +1,7 @@
+import 'package:anton_1_0/Components/AboutMe/aboutme_mobile.dart';
+import 'package:anton_1_0/Components/MoreAboutMe/more_about_me_mobile.dart';
+import 'package:anton_1_0/Components/MoreAboutMe/new_more_aboutme_mobile.dart';
+import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Style/text.dart';
 import 'package:flutter/material.dart';
@@ -59,18 +63,17 @@ class LandingMobile extends StatelessWidget {
                 style: navbarTabletBtnTxt,
               ),
               SizedBox(
-                width: 20,
+                width: 16,
               ),
               Icon(
-                Icons.visibility_off,
+                Icons.east,
                 color: greenColor,
-                size: 24,
-              )
+                size: 22,
+              ),
             ],
           ),
-          SizedBox(
-            height: 24,
-          ),
+          AboutmeMobile(),
+          NewMoreAboutMeMobile(),
         ],
       ),
     );
