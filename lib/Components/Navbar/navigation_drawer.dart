@@ -56,70 +56,70 @@ class NavigationDrawer extends StatelessWidget {
                         ),
                       ),
                       Spacer(),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(
-                          vertical: 8,
-                        ),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Image(
-                              image: AssetImage(
-                                  'images/ant-design_twitter-circle-filled.png'),
-                              height: 40,
-                              width: 40,
-                            ),
-                            Image(
-                              image: AssetImage(
-                                  'images/ant-design_github-filled.png'),
-                              height: 40,
-                              width: 40,
-                            ),
-                            Image(
-                              image: AssetImage(
-                                  'images/entypo-social_linkedin-with-circle.png'),
-                              height: 40,
-                              width: 40,
-                            ),
-                            Image(
-                              image: AssetImage(
-                                  'images/ant-design_instagram-filled.png'),
-                              height: 40,
-                              width: 40,
-                            ),
-                            Image(
-                              image: AssetImage(
-                                  'images/ant-design_behance-circle-filled.png'),
-                              height: 40,
-                              width: 40,
-                            ),
-                          ],
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(
-                          vertical: 8,
-                        ),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text(
-                              'Made with ',
-                              style: navbarTabletBtnTxt,
-                            ),
-                            Icon(
-                              Icons.favorite,
-                              color: Colors.red,
-                            ),
-                            Text(
-                              ' Akhil T J',
-                              style: navbarTabletBtnTxt,
-                            ),
-                          ],
-                        ),
-                      ),
+                      // Padding(
+                      //   padding: const EdgeInsets.symmetric(
+                      //     vertical: 8,
+                      //   ),
+                      //   child: Row(
+                      //     mainAxisSize: MainAxisSize.max,
+                      //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      //     children: [
+                      //       Image(
+                      //         image: AssetImage(
+                      //             'images/ant-design_twitter-circle-filled.png'),
+                      //         height: 40,
+                      //         width: 40,
+                      //       ),
+                      //       Image(
+                      //         image: AssetImage(
+                      //             'images/ant-design_github-filled.png'),
+                      //         height: 40,
+                      //         width: 40,
+                      //       ),
+                      //       Image(
+                      //         image: AssetImage(
+                      //             'images/entypo-social_linkedin-with-circle.png'),
+                      //         height: 40,
+                      //         width: 40,
+                      //       ),
+                      //       Image(
+                      //         image: AssetImage(
+                      //             'images/ant-design_instagram-filled.png'),
+                      //         height: 40,
+                      //         width: 40,
+                      //       ),
+                      //       Image(
+                      //         image: AssetImage(
+                      //             'images/ant-design_behance-circle-filled.png'),
+                      //         height: 40,
+                      //         width: 40,
+                      //       ),
+                      //     ],
+                      //   ),
+                      // ),
+                      // Padding(
+                      //   padding: const EdgeInsets.symmetric(
+                      //     vertical: 8,
+                      //   ),
+                      //   child: Row(
+                      //     mainAxisSize: MainAxisSize.max,
+                      //     mainAxisAlignment: MainAxisAlignment.center,
+                      //     children: [
+                      //       Text(
+                      //         'Made with ',
+                      //         style: navbarTabletBtnTxt,
+                      //       ),
+                      //       Icon(
+                      //         Icons.favorite,
+                      //         color: Colors.red,
+                      //       ),
+                      //       Text(
+                      //         ' Akhil T J',
+                      //         style: navbarTabletBtnTxt,
+                      //       ),
+                      //     ],
+                      //   ),
+                      // ),
                     ],
                   ),
                 ),
