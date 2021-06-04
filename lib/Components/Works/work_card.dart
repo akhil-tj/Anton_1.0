@@ -3,9 +3,11 @@ import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Style/text.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class WorkCard extends StatelessWidget {
   String imagePath;
-  WorkCard({this.imagePath = 'images/Rectangle 16.jpg'});
+  String workcardbody;
+  WorkCard({this.imagePath = 'images/Rectangle 16.jpg', this.workcardbody = ''});
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -43,7 +45,7 @@ class WorkCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
+                workcardbody,
                 style: bodyMobiletxt1,
               ),
               SizedBox(height: 48),

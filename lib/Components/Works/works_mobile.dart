@@ -4,12 +4,10 @@ import 'package:anton_1_0/Style/text.dart';
 import 'package:flutter/material.dart';
 
 class WorksMobile extends StatelessWidget {
-  const WorksMobile({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(top: 220),
+      padding: EdgeInsets.only(top: 180),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
@@ -31,18 +29,24 @@ class WorksMobile extends StatelessWidget {
           ),
           WorkCard(
             imagePath: 'images/Rectangle 16.jpg',
+            workcardbody:
+                'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
           ),
           SizedBox(
             height: 16,
           ),
           WorkCard(
             imagePath: 'images/Rectangle 17.jpg',
+            workcardbody:
+                'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
           ),
           SizedBox(
             height: 16,
           ),
           WorkCard(
             imagePath: 'images/Rectangle 23.jpg',
+            workcardbody:
+                'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
           ),
           SizedBox(height: 48),
           // ignore: deprecated_member_use
@@ -52,7 +56,7 @@ class WorksMobile extends StatelessWidget {
               vertical: 14,
             ),
             onPressed: () {
-              print('Resume Pressed');
+              print('Show More Pressed');
             },
             color: navyColor,
             child: Text(

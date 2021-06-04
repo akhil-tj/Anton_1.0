@@ -15,7 +15,7 @@ class NewMoreAboutMeMobile extends StatelessWidget {
       length: 5,
       initialIndex: 0,
       child: Padding(
-        padding: EdgeInsets.only(top: 220),
+        padding: EdgeInsets.only(top: 180),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -62,6 +62,9 @@ class NewMoreAboutMeMobile extends StatelessWidget {
                 ),
               ],
             ),
+            // Divider(
+            //   color: Colors.blueGrey,
+            // ),
             SizedBox(
               height: 18,
             ),
@@ -78,26 +81,26 @@ class NewMoreAboutMeMobile extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(
-              height: 64,
-            ),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Works',
-                  style: navbarTabletBtnTxt,
-                ),
-                SizedBox(
-                  width: 16,
-                ),
-                Icon(
-                  Icons.east,
-                  color: greenColor,
-                  size: 22,
-                ),
-              ],
-            ),
+            // SizedBox(
+            //   height: 64,
+            // ),
+            // Row(
+            //   crossAxisAlignment: CrossAxisAlignment.start,
+            //   children: [
+            //     Text(
+            //       'Works',
+            //       style: navbarTabletBtnTxt,
+            //     ),
+            //     SizedBox(
+            //       width: 16,
+            //     ),
+            //     Icon(
+            //       Icons.east,
+            //       color: greenColor,
+            //       size: 22,
+            //     ),
+            //   ],
+            // ),
           ],
         ),
       ),

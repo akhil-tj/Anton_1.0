@@ -7,7 +7,7 @@ class EndingMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(top: 220),
+      padding: EdgeInsets.only(top: 180),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
