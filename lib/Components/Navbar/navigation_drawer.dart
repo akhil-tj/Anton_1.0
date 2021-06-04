@@ -22,36 +22,56 @@ class NavigationDrawer extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(
                           vertical: 8,
                         ),
-                        child: Text(
-                          'Home',
-                          style: landingMobileTxt2,
+                        child: GestureDetector(
+                          onTap: () {
+                            print('Pressed Home');
+                          },
+                          child: Text(
+                            'Home',
+                            style: landingMobileTxt2,
+                          ),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(
                           vertical: 8,
                         ),
-                        child: Text(
-                          'Skills',
-                          style: landingMobileTxt1,
+                        child: GestureDetector(
+                          onTap: () {
+                            print('Pressed Skills');
+                          },
+                          child: Text(
+                            'Skills',
+                            style: landingMobileTxt1,
+                          ),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(
                           vertical: 8,
                         ),
-                        child: Text(
-                          'Works',
-                          style: landingMobileTxt1,
+                        child: GestureDetector(
+                          onTap: () {
+                            print('Pressed Works');
+                          },
+                          child: Text(
+                            'Works',
+                            style: landingMobileTxt1,
+                          ),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(
                           vertical: 8,
                         ),
-                        child: Text(
-                          'Contact',
-                          style: landingMobileTxt1,
+                        child: GestureDetector(
+                          onTap: () {
+                            print('Pressed Contact');
+                          },
+                          child: Text(
+                            'Contact',
+                            style: landingMobileTxt1,
+                          ),
                         ),
                       ),
                       Spacer(),
