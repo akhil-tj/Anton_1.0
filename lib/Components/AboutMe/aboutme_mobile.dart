@@ -1,6 +1,7 @@
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Style/text.dart';
+import 'package:anton_1_0/Widgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
 
 class AboutmeMobile extends StatelessWidget {
@@ -47,26 +48,7 @@ class AboutmeMobile extends StatelessWidget {
             'I\'m a team palyer who likes to socialise & engage in community activities.',
             style: bodyMobiletxt1,
           ),
-          SizedBox(
-            height: 64,
-          ),
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                'Know More',
-                style: navbarTabletBtnTxt,
-              ),
-              SizedBox(
-                width: 16,
-              ),
-              Icon(
-                Icons.east,
-                color: greenColor,
-                size: 22,
-              ),
-            ],
-          ),
+          InnerHyperlink(innerHyperlinkText: 'More About Me'),
         ],
       ),
     );

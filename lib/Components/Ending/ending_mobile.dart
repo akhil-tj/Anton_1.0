@@ -1,6 +1,7 @@
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Style/text.dart';
+import 'package:anton_1_0/Widgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -29,9 +30,6 @@ class EndingMobile extends StatelessWidget {
             'Let’s talk.',
             style: landingMobileTxt1,
           ),
-          SizedBox(
-            height: 64,
-          ),
           ContactViaMail(),
         ],
       ),
@@ -55,23 +53,7 @@ class _ContactViaMailState extends State<ContactViaMail> {
           throw 'Could not launch ${_emailLaunchUri.toString()}';
         }
       },
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            'E-mail Me',
-            style: navbarTabletBtnTxt,
-          ),
-          SizedBox(
-            width: 16,
-          ),
-          Icon(
-            Icons.east,
-            color: greenColor,
-            size: 22,
-          ),
-        ],
-      ),
+      child: InnerHyperlink(innerHyperlinkText: 'E-mail Me'),
     );
   }
 }

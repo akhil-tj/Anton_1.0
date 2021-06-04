@@ -1,13 +1,15 @@
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Style/text.dart';
+import 'package:anton_1_0/Widgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class WorkCard extends StatelessWidget {
   String imagePath;
   String workcardbody;
-  WorkCard({this.imagePath = 'images/Rectangle 16.jpg', this.workcardbody = ''});
+  WorkCard(
+      {this.imagePath = 'images/Rectangle 16.jpg', this.workcardbody = ''});
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -48,24 +50,8 @@ class WorkCard extends StatelessWidget {
                 workcardbody,
                 style: bodyMobiletxt1,
               ),
-              SizedBox(height: 48),
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Know More',
-                    style: navbarTabletBtnTxt,
-                  ),
-                  SizedBox(
-                    width: 16,
-                  ),
-                  Icon(
-                    Icons.east,
-                    color: greenColor,
-                    size: 22,
-                  ),
-                ],
-              ),
+              //SizedBox(height: 48),
+              InnerHyperlink(innerHyperlinkText: 'Know More'),
             ],
           ),
         ),
