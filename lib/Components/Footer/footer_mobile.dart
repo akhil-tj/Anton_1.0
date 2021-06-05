@@ -30,7 +30,7 @@ class FooterMobile extends StatelessWidget {
               ),
               GestureDetector(
                 onTap: () async {
-                  const url = 'https://github.com/itexpert2572000';
+                  const url = 'https://github.com/akhil-tj';
                   if (await canLaunch(url)) {
                     await launch(url);
                   } else {
