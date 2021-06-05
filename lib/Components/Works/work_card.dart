@@ -1,6 +1,4 @@
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
-import 'package:anton_1_0/Style/color.dart';
-import 'package:anton_1_0/Style/text.dart';
 import 'package:anton_1_0/Widgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
 
@@ -51,7 +49,8 @@ class WorkCard extends StatelessWidget {
                 style: bodyMobiletxt1,
               ),
               //SizedBox(height: 48),
-              InnerHyperlink(innerHyperlinkText: 'Know More'),
+              InnerHyperlink(
+                  innerHyperlinkText: 'Know More', innerHyperlinkPadding: 48.0),
             ],
           ),
         ),

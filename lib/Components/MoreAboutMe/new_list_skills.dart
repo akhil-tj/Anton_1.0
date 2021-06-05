@@ -1,6 +1,4 @@
 import 'package:anton_1_0/Components/MoreAboutMe/rating_skill.dart';
-import 'package:anton_1_0/Style/color.dart';
-import 'package:anton_1_0/Style/text.dart';
 import 'package:anton_1_0/Widgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +18,8 @@ class NewListSkills extends StatelessWidget {
         RatingSkill('Flutter', '50%', 1),
         SizedBox(height: 16),
         RatingSkill('UI/UX Designing', '80%', 5),
-        InnerHyperlink(innerHyperlinkText: 'Works'),
+        InnerHyperlink(
+            innerHyperlinkText: 'Works', innerHyperlinkPadding: 64.0),
       ],
     );
   }

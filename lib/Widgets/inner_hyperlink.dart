@@ -5,13 +5,13 @@ import 'package:flutter/material.dart';
 // ignore: must_be_immutable
 class InnerHyperlink extends StatelessWidget {
   String innerHyperlinkText;
-  static const double innerHyperlinkPadding = 64.0;
-  InnerHyperlink({required this.innerHyperlinkText});
+  final double innerHyperlinkPadding;
+  InnerHyperlink({required this.innerHyperlinkText, required this.innerHyperlinkPadding});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: innerHyperlinkPadding),
+      padding: EdgeInsets.only(top: innerHyperlinkPadding),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
