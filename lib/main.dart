@@ -3,7 +3,7 @@ import 'package:anton_1_0/Components/Navbar/navigation_drawer.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MyApp()); //main methode
 }
 
 class MyApp extends StatelessWidget {
