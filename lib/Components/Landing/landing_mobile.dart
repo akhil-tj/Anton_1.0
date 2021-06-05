@@ -15,42 +15,42 @@ class LandingMobile extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
+          SelectableText(
             'Hello,',
             style: landingMobileTxt1,
           ),
-          Row(
-            children: [
-              Text(
-                'I’m',
-                style: landingMobileTxt1,
-              ),
-              // SizedBox(
-              //   width: 26,
-              // ),
-              Text(
-                ' Akhil T J',
-                style: landingMobileTxt2,
-              ),
-            ],
+          SelectableText.rich(
+            TextSpan(
+              children: <TextSpan>[
+                TextSpan(
+                  text: 'I’m',
+                  style: landingMobileTxt1,
+                ),
+                TextSpan(
+                  text: ' Akhil T J',
+                  style: landingMobileTxt2,
+                ),
+              ],
+            ),
           ),
-          Text(
+          SelectableText(
             'I design, code',
             style: landingMobileTxt1,
           ),
-          Text(
+          SelectableText(
             'and grow',
             style: landingMobileTxt1,
           ),
-          Text(
+          SelectableText(
             'things on',
             style: landingMobileTxt1,
           ),
-          Text(
+          SelectableText(
             'internet.',
             style: landingMobileTxt1,
           ),
-          InnerHyperlink(innerHyperlinkText: 'About Me', innerHyperlinkPadding: 64.0),
+          InnerHyperlink(
+              innerHyperlinkText: 'About Me', innerHyperlinkPadding: 64.0),
           AboutmeMobile(),
           NewMoreAboutMeMobile(),
           WorksMobile(),

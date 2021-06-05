@@ -14,7 +14,7 @@ class RatingSkill extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
+        SelectableText(
           skill,
           style: navbarTabletDefaultTxt,
         ),
@@ -33,7 +33,7 @@ class RatingSkill extends StatelessWidget {
               child: Container(
                 height: 17,
                 color: Colors.blueGrey,
-                child: Text(
+                child: SelectableText(
                   percentage,
                   style: TextStyle(
                     color: Colors.white,

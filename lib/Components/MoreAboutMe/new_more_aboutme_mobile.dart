@@ -19,7 +19,7 @@ class NewMoreAboutMeMobile extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
+            SelectableText(
               'More About Me',
               style: navbarDesktopSelectedTxt,
             ),
@@ -81,26 +81,6 @@ class NewMoreAboutMeMobile extends StatelessWidget {
                 ],
               ),
             ),
-            // SizedBox(
-            //   height: 64,
-            // ),
-            // Row(
-            //   crossAxisAlignment: CrossAxisAlignment.start,
-            //   children: [
-            //     Text(
-            //       'Works',
-            //       style: navbarTabletBtnTxt,
-            //     ),
-            //     SizedBox(
-            //       width: 16,
-            //     ),
-            //     Icon(
-            //       Icons.east,
-            //       color: greenColor,
-            //       size: 22,
-            //     ),
-            //   ],
-            // ),
           ],
         ),
       ),

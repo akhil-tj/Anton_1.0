@@ -13,14 +13,12 @@ class WorksMobile extends StatelessWidget {
         children: [
           Row(
             children: [
-              Text(
+              SelectableText(
                 'Works',
                 style: navbarDesktopSelectedTxt,
               ),
               Expanded(
-                child: Container(
-                  color: Colors.amber,
-                ),
+                child: Container(),
               ),
             ],
           ),

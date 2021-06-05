@@ -16,15 +16,15 @@ class EndingMobile extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
+          SelectableText(
             'I’m always interested about cool stuff.',
             style: landingMobileTxt1,
           ),
-          Text(
+          SelectableText(
             'Need help?',
             style: landingMobileTxt2,
           ),
-          Text(
+          SelectableText(
             'Let’s talk.',
             style: landingMobileTxt1,
           ),

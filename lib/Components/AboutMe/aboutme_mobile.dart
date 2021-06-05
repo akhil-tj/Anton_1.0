@@ -11,7 +11,7 @@ class AboutmeMobile extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
+          SelectableText(
             'About Me',
             style: navbarDesktopSelectedTxt,
           ),
@@ -36,14 +36,14 @@ class AboutmeMobile extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          Text(
+          SelectableText(
             'I\'m an aspirant engineering student specialized in Information Technology Engineering. Fell in love with technology during the early days of childhood. I have a passion for designing, which keeps me motivated in this competitive world.',
             style: bodyMobiletxt1,
           ),
           SizedBox(
             height: 14,
           ),
-          Text(
+          SelectableText(
             'I\'m a team palyer who likes to socialise & engage in community activities.',
             style: bodyMobiletxt1,
           ),

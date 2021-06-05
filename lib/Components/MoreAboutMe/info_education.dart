@@ -14,17 +14,17 @@ class InfoEducation extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text(
+        SelectableText(
           institution,
           style: navbarTabletDefaultTxt,
         ),
         SizedBox(height: 2),
-        Text(
+        SelectableText(
           degree,
           style: bodyMobiletxt2,
         ),
         SizedBox(height: 2),
-        Text(
+        SelectableText(
           year,
           style: bodyMobiletxt2,
         ),

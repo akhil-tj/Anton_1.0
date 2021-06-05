@@ -93,12 +93,12 @@ class FooterMobile extends StatelessWidget {
             ],
           ),
           SizedBox(height: 24),
-          Text(
+          SelectableText(
             'Designed & Build by Akhil T J',
             style: bodyMobiletxt2,
           ),
           SizedBox(height: 2),
-          Text(
+          SelectableText(
             'Copyright 2021',
             style: bodyMobiletxt2,
           ),

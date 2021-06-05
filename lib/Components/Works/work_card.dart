@@ -44,7 +44,7 @@ class WorkCard extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
+              SelectableText(
                 workcardbody,
                 style: bodyMobiletxt1,
               ),

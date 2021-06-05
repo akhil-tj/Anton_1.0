@@ -3,8 +3,6 @@ import 'package:anton_1_0/Widgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
 
 class NewListSkills extends StatelessWidget {
-  const NewListSkills({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Column(

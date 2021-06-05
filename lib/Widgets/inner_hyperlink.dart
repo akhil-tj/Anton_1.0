@@ -6,7 +6,8 @@ import 'package:flutter/material.dart';
 class InnerHyperlink extends StatelessWidget {
   String innerHyperlinkText;
   final double innerHyperlinkPadding;
-  InnerHyperlink({required this.innerHyperlinkText, required this.innerHyperlinkPadding});
+  InnerHyperlink(
+      {required this.innerHyperlinkText, required this.innerHyperlinkPadding});
 
   @override
   Widget build(BuildContext context) {
