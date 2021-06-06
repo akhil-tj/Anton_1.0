@@ -7,12 +7,24 @@ class MoreAboutmeDesktop extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.only(top: 180),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
             'More About Me',
             style: h1Desktoptxt,
           ),
           SizedBox(height: 40),
+          Row(
+            children: [
+              Container(
+                width: 500,
+                height: 300,
+              ),
+              SizedBox(
+                width: 18,
+              ),
+            ],
+          )
         ],
       ),
     );
