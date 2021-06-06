@@ -1,6 +1,6 @@
+import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
 import 'package:anton_1_0/Style/color.dart';
-import 'package:anton_1_0/Style/text.dart';
 import 'package:flutter/material.dart';
 
 class MoreAboutmeMobile extends StatelessWidget {

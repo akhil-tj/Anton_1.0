@@ -1,0 +1,20 @@
+import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
+import 'package:flutter/material.dart';
+
+class MoreAboutmeDesktop extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.only(top: 180),
+      child: Column(
+        children: [
+          Text(
+            'More About Me',
+            style: h1Desktoptxt,
+          ),
+          SizedBox(height: 40),
+        ],
+      ),
+    );
+  }
+}

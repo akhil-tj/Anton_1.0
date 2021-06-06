@@ -14,7 +14,7 @@ class InnerHyperlink extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.only(top: innerHyperlinkPadding),
       child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text(
             innerHyperlinkText,

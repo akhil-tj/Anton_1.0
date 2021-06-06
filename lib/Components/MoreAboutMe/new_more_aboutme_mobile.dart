@@ -3,9 +3,9 @@ import 'package:anton_1_0/Components/MoreAboutMe/list_education.dart';
 import 'package:anton_1_0/Components/MoreAboutMe/list_experence.dart';
 import 'package:anton_1_0/Components/MoreAboutMe/list_volunteer.dart';
 import 'package:anton_1_0/Components/MoreAboutMe/new_list_skills.dart';
+import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
 import 'package:anton_1_0/Style/color.dart';
-import 'package:anton_1_0/Style/text.dart';
 import 'package:flutter/material.dart';
 
 class NewMoreAboutMeMobile extends StatelessWidget {
