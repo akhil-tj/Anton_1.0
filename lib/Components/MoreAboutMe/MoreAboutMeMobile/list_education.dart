@@ -1,4 +1,4 @@
-import 'package:anton_1_0/Components/MoreAboutMe/info_education.dart';
+import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/info_education.dart';
 import 'package:flutter/material.dart';
 
 class ListEducation extends StatelessWidget {

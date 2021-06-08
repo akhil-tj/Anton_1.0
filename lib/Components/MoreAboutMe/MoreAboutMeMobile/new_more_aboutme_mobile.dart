@@ -1,8 +1,8 @@
-import 'package:anton_1_0/Components/MoreAboutMe/list_achievement.dart';
-import 'package:anton_1_0/Components/MoreAboutMe/list_education.dart';
-import 'package:anton_1_0/Components/MoreAboutMe/list_experence.dart';
-import 'package:anton_1_0/Components/MoreAboutMe/list_volunteer.dart';
-import 'package:anton_1_0/Components/MoreAboutMe/new_list_skills.dart';
+import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/list_achievement.dart';
+import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/list_education.dart';
+import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/list_experence.dart';
+import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/list_volunteer.dart';
+import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/new_list_skills.dart';
 import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
 import 'package:anton_1_0/Style/color.dart';

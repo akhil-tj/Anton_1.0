@@ -1,7 +1,7 @@
 import 'package:anton_1_0/Components/AboutMe/aboutme_mobile.dart';
 import 'package:anton_1_0/Components/Ending/ending_mobile.dart';
 import 'package:anton_1_0/Components/Footer/footer_mobile.dart';
-import 'package:anton_1_0/Components/MoreAboutMe/new_more_aboutme_mobile.dart';
+import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/new_more_aboutme_mobile.dart';
 import 'package:anton_1_0/Components/Works/works_mobile.dart';
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
 import 'package:anton_1_0/Widgets/MobileWidgets/inner_hyperlink.dart';

@@ -1,4 +1,4 @@
-import 'package:anton_1_0/Components/MoreAboutMe/rating_skill.dart';
+import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/rating_skill.dart';
 import 'package:anton_1_0/Widgets/MobileWidgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
 

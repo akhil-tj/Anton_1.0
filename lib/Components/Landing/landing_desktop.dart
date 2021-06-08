@@ -1,5 +1,5 @@
 import 'package:anton_1_0/Components/AboutMe/aboutme_desktop.dart';
-import 'package:anton_1_0/Components/MoreAboutMeDesktop/more_aboutme_desktop.dart';
+import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeDesktop/more_aboutme_desktop.dart';
 import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Widgets/DesktopWidgets/social_bar.dart';
