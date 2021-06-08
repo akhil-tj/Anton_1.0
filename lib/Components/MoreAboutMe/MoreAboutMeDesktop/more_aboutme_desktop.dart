@@ -1,3 +1,4 @@
+import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeDesktop/vertical_tabbar.dart';
 import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:flutter/material.dart';
 
@@ -14,17 +15,7 @@ class MoreAboutmeDesktop extends StatelessWidget {
             style: h1Desktoptxt,
           ),
           SizedBox(height: 40),
-          Row(
-            children: [
-              Container(
-                width: 500,
-                height: 300,
-              ),
-              SizedBox(
-                width: 18,
-              ),
-            ],
-          )
+          VerticalTabBar(),
         ],
       ),
     );
