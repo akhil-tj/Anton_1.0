@@ -56,3 +56,15 @@ TextStyle bodyDesktoptxt = TextStyle(
   // fontWeight: FontWeight.w500,
   fontSize: 22,
 );
+// unused styles
+TextStyle tabHeadingDesktoptxt = TextStyle(
+  color: Colors.white,
+  fontFamily: 'FiraCode',
+  fontWeight: FontWeight.w500,
+  fontSize: 22,
+);
+TextStyle tabSubHeadingDesktoptxt = TextStyle(
+  color: Colors.white,
+  fontFamily: 'FiraCode',
+  fontSize: 20,
+);

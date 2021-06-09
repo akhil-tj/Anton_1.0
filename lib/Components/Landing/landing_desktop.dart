@@ -1,5 +1,8 @@
 import 'package:anton_1_0/Components/AboutMe/aboutme_desktop.dart';
+import 'package:anton_1_0/Components/Ending/ending_desktop.dart';
+import 'package:anton_1_0/Components/Footer/footer_desktop.dart';
 import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeDesktop/more_aboutme_desktop.dart';
+import 'package:anton_1_0/Components/Works/WorksDesktop/works_desktop.dart';
 import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Widgets/DesktopWidgets/social_bar.dart';
@@ -97,6 +100,9 @@ class LandingDesktop extends StatelessWidget {
                       ),
                       AboutmeDesktop(),
                       MoreAboutmeDesktop(),
+                      WorksDesktop(),
+                      EndingDesktop(),
+                      FooterDesktop(),
                     ],
                   ),
                 ),

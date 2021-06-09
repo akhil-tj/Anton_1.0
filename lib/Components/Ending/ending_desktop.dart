@@ -1,9 +1,8 @@
-import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeDesktop/vertical_tabbar.dart';
 import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:flutter/material.dart';
 
-class MoreAboutmeDesktop extends StatelessWidget {
+class EndingDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -11,21 +10,34 @@ class MoreAboutmeDesktop extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            'More About Me',
-            style: h1Desktoptxt,
+          SelectableText(
+            'I’m always interested',
+            style: landingDesktopTxt1,
           ),
-          SizedBox(height: 40),
-          VerticalTabBar(),
+          SelectableText(
+            'about cool stuff.',
+            style: landingDesktopTxt1,
+          ),
+          SelectableText(
+            'Need help?',
+            style: landingDesktopTxt2,
+          ),
+          SelectableText(
+            'Let’s talk.',
+            style: landingDesktopTxt1,
+          ),
+          SizedBox(
+            height: 64,
+          ),
           GestureDetector(
             onTap: () {
-              print('Pressed About Me');
+              print('Pressed More About Me');
             },
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Text(
-                  'Works',
+                  'E-mail Me',
                   style: h2Desktoptxt,
                 ),
                 SizedBox(
