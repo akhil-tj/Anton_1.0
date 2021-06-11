@@ -17,28 +17,7 @@ class MoreAboutmeDesktop extends StatelessWidget {
           ),
           SizedBox(height: 40),
           VerticalTabBar(),
-          GestureDetector(
-            onTap: () {
-              print('Pressed About Me');
-            },
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Text(
-                  'Works',
-                  style: h2Desktoptxt,
-                ),
-                SizedBox(
-                  width: 24,
-                ),
-                Icon(
-                  Icons.east,
-                  color: greenColor,
-                  size: 26,
-                )
-              ],
-            ),
-          ),
+          
         ],
       ),
     );

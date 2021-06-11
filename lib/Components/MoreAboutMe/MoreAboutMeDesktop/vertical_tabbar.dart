@@ -16,91 +16,125 @@ class VerticalTabBar extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            Container(
-              height: 300,
-              width: 200,
-              color: navyColor,
-              child: RotatedBox(
-                quarterTurns: 1,
-                child: TabBar(
-                  indicatorColor: greenColor,
-                  indicatorWeight: 3.0,
-                  labelStyle: bodyDesktoptxt,
-                  unselectedLabelColor: Colors.blueGrey,
-                  tabs: [
-                    RotatedBox(
-                      quarterTurns: 3,
-                      child: Tab(
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            SizedBox(width: 18),
-                            Text(
-                              'Skills',
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  height: 300,
+                  width: 200,
+                  color: navyColor,
+                  child: RotatedBox(
+                    quarterTurns: 1,
+                    child: TabBar(
+                      indicatorColor: greenColor,
+                      indicatorWeight: 3.0,
+                      labelStyle: bodyDesktoptxt,
+                      unselectedLabelColor: Colors.blueGrey,
+                      tabs: [
+                        RotatedBox(
+                          quarterTurns: 3,
+                          child: Tab(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                SizedBox(width: 18),
+                                Text(
+                                  'Skills',
+                                ),
+                              ],
                             ),
-                          ],
+                          ),
                         ),
-                      ),
+                        RotatedBox(
+                          quarterTurns: 3,
+                          child: Tab(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                SizedBox(width: 18),
+                                Text(
+                                  'Achievements',
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        RotatedBox(
+                          quarterTurns: 3,
+                          child: Tab(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                SizedBox(width: 18),
+                                Text(
+                                  'Education',
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        RotatedBox(
+                          quarterTurns: 3,
+                          child: Tab(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                SizedBox(width: 18),
+                                Text(
+                                  'Volunteer',
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        RotatedBox(
+                          quarterTurns: 3,
+                          child: Tab(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: [
+                                SizedBox(width: 18),
+                                Text(
+                                  'Experience',
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
-                    RotatedBox(
-                      quarterTurns: 3,
-                      child: Tab(
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            SizedBox(width: 18),
-                            Text(
-                              'Achievements',
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                    RotatedBox(
-                      quarterTurns: 3,
-                      child: Tab(
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            SizedBox(width: 18),
-                            Text(
-                              'Education',
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                    RotatedBox(
-                      quarterTurns: 3,
-                      child: Tab(
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            SizedBox(width: 18),
-                            Text(
-                              'Volunteer',
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                    RotatedBox(
-                      quarterTurns: 3,
-                      child: Tab(
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.start,
-                          children: [
-                            SizedBox(width: 18),
-                            Text(
-                              'Experience',
-                            ),
-                          ],
-                        ),
+                  ),
+                ),
+                SizedBox(height: 64),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    SizedBox(width: 24),
+                    GestureDetector(
+                      onTap: () {
+                        print('Pressed About Me');
+                      },
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Text(
+                            'Works',
+                            style: h2Desktoptxt,
+                          ),
+                          SizedBox(
+                            width: 24,
+                          ),
+                          Icon(
+                            Icons.east,
+                            color: greenColor,
+                            size: 26,
+                          )
+                        ],
                       ),
                     ),
                   ],
                 ),
-              ),
+              ],
             ),
             SizedBox(
               width: 72,
