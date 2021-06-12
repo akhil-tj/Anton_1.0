@@ -12,100 +12,95 @@ class LandingDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.fromLTRB(72, 40, 0, 40),
+      padding: EdgeInsets.fromLTRB(72, 40, 72, 40),
       child: Container(
-        //color: Colors.green,
+        color: Colors.green,
         child: Row(
-          mainAxisSize: MainAxisSize.max,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SocialBar(),
             SizedBox(width: 80),
             Container(
-              //color: Colors.teal,
-              child: SingleChildScrollView(
-                child: Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+              color: Colors.teal,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  SelectableText(
+                    'Hello,',
+                    style: landingDesktopTxt1,
+                  ),
+                  // SelectableText.rich(
+                  //   TextSpan(
+                  //     children: <TextSpan>[
+                  //       TextSpan(
+                  //         text: 'I’m',
+                  //         style: landingDesktopTxt1,
+                  //       ),
+                  //       TextSpan(
+                  //         text: 'Akhil T J',
+                  //         style: landingDesktopTxt2,
+                  //       ),
+                  //     ],
+                  //   ),
+                  // ),
+                  Row(
                     children: [
                       SelectableText(
-                        'Hello,',
-                        style: landingDesktopTxt1,
-                      ),
-                      // SelectableText.rich(
-                      //   TextSpan(
-                      //     children: <TextSpan>[
-                      //       TextSpan(
-                      //         text: 'I’m',
-                      //         style: landingDesktopTxt1,
-                      //       ),
-                      //       TextSpan(
-                      //         text: 'Akhil T J',
-                      //         style: landingDesktopTxt2,
-                      //       ),
-                      //     ],
-                      //   ),
-                      // ),
-                      Row(
-                        children: [
-                          SelectableText(
-                            'I’m',
-                            style: landingDesktopTxt1,
-                          ),
-                          SizedBox(
-                            width: 40,
-                          ),
-                          SelectableText(
-                            'Akhil T J',
-                            style: landingDesktopTxt2,
-                          ),
-                        ],
-                      ),
-                      SelectableText(
-                        'I design, code and',
-                        style: landingDesktopTxt1,
-                      ),
-                      SelectableText(
-                        'grow things on',
-                        style: landingDesktopTxt1,
-                      ),
-                      SelectableText(
-                        'internet.',
+                        'I’m',
                         style: landingDesktopTxt1,
                       ),
                       SizedBox(
-                        height: 64,
+                        width: 40,
                       ),
-                      GestureDetector(
-                        onTap: () {
-                          print('Pressed About Me');
-                        },
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Text(
-                              'About Me',
-                              style: h2Desktoptxt,
-                            ),
-                            SizedBox(
-                              width: 24,
-                            ),
-                            Icon(
-                              Icons.east,
-                              color: greenColor,
-                              size: 26,
-                            )
-                          ],
-                        ),
+                      SelectableText(
+                        'Akhil T J',
+                        style: landingDesktopTxt2,
                       ),
-                      AboutmeDesktop(),
-                      MoreAboutmeDesktop(),
-                      WorksDesktop(),
-                      EndingDesktop(),
-                      FooterDesktop(),
                     ],
                   ),
-                ),
+                  SelectableText(
+                    'I design, code and',
+                    style: landingDesktopTxt1,
+                  ),
+                  SelectableText(
+                    'grow things on',
+                    style: landingDesktopTxt1,
+                  ),
+                  SelectableText(
+                    'internet.',
+                    style: landingDesktopTxt1,
+                  ),
+                  SizedBox(
+                    height: 64,
+                  ),
+                  GestureDetector(
+                    onTap: () {
+                      print('Pressed About Me');
+                    },
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Text(
+                          'About Me',
+                          style: h2Desktoptxt,
+                        ),
+                        SizedBox(
+                          width: 24,
+                        ),
+                        Icon(
+                          Icons.east,
+                          color: greenColor,
+                          size: 26,
+                        )
+                      ],
+                    ),
+                  ),
+                  AboutmeDesktop(),
+                  MoreAboutmeDesktop(),
+                  WorksDesktop(),
+                  EndingDesktop(),
+                  FooterDesktop(),
+                ],
               ),
             ),
           ],

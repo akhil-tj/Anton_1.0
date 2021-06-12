@@ -4,6 +4,8 @@ import 'package:anton_1_0/Components/Footer/footer_mobile.dart';
 import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/new_more_aboutme_mobile.dart';
 import 'package:anton_1_0/Components/Works/works_mobile.dart';
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
+import 'package:anton_1_0/Style/color.dart';
+import 'package:anton_1_0/Style/text.dart';
 import 'package:anton_1_0/Widgets/MobileWidgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
 
@@ -54,6 +56,39 @@ class LandingMobile extends StatelessWidget {
           AboutmeMobile(),
           NewMoreAboutMeMobile(),
           WorksMobile(),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Expanded(
+                child: Container(),
+              ),
+              // ignore: deprecated_member_use
+              FlatButton(
+                padding: EdgeInsets.symmetric(
+                  horizontal: 18,
+                  vertical: 14,
+                ),
+                onPressed: () {
+                  print('Show More Pressed');
+                },
+                color: navyColor,
+                child: Text(
+                  'Show More',
+                  style: navbarTabletBtnTxt,
+                ),
+                shape: RoundedRectangleBorder(
+                  side: BorderSide(
+                    color: greenColor,
+                    width: 2,
+                  ),
+                  borderRadius: BorderRadius.circular(6),
+                ),
+              ),
+              Expanded(
+                child: Container(),
+              ),
+            ],
+          ),
           EndingMobile(),
           FooterMobile(),
         ],

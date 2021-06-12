@@ -38,7 +38,7 @@ class AboutMeTablet extends StatelessWidget {
             height: 20,
           ),
           SelectableText(
-            'I\'m an aspirant engineering student specialized in Information Technology Engineering. Fell in love with technology during the early days of childhood. I have a passion for designing, which keeps me motivated in this competitive world.',
+            'I\'m an aspiring engineering student specialized in Information Technology Engineering. Fell in love with technology during the early days of childhood. I have a passion for designing, which keeps me motivated in this competitive world.',
             style: bodyMobiletxt1,
           ),
           SizedBox(
@@ -55,7 +55,7 @@ class AboutMeTablet extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
-                'About Me',
+                'More About Me',
                 style: h1Tablettxt,
               ),
               SizedBox(

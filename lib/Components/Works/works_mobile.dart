@@ -48,28 +48,8 @@ class WorksMobile extends StatelessWidget {
                 'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
           ),
           SizedBox(height: 48),
-          // ignore: deprecated_member_use
-          FlatButton(
-            padding: EdgeInsets.symmetric(
-              horizontal: 18,
-              vertical: 14,
-            ),
-            onPressed: () {
-              print('Show More Pressed');
-            },
-            color: navyColor,
-            child: Text(
-              'Show More',
-              style: navbarTabletBtnTxt,
-            ),
-            shape: RoundedRectangleBorder(
-              side: BorderSide(
-                color: greenColor,
-                width: 2,
-              ),
-              borderRadius: BorderRadius.circular(6),
-            ),
-          )
+          
+          
         ],
       ),
     );

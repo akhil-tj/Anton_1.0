@@ -7,7 +7,8 @@ class RatingSkill extends StatelessWidget {
   String skill;
   String percentage;
   int fluxValue;
-  RatingSkill(this.skill, this.percentage, this.fluxValue);
+  TextStyle txtStyle;
+  RatingSkill(this.skill, this.percentage, this.fluxValue, this.txtStyle);
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +17,7 @@ class RatingSkill extends StatelessWidget {
       children: [
         SelectableText(
           skill,
-          style: navbarTabletDefaultTxt,
+          style: txtStyle,
         ),
         SizedBox(height: 3),
         Row(

@@ -7,7 +7,7 @@ class MoreAboutmeDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(top: 180),
+      padding: EdgeInsets.only(top: 80),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -17,7 +17,6 @@ class MoreAboutmeDesktop extends StatelessWidget {
           ),
           SizedBox(height: 40),
           VerticalTabBar(),
-          
         ],
       ),
     );

@@ -1,3 +1,4 @@
+import 'package:anton_1_0/Components/AboutMe/aboutme_mobile.dart';
 import 'package:anton_1_0/Components/AboutMe/aboutme_tablet.dart';
 import 'package:anton_1_0/Components/Ending/ending_mobile.dart';
 import 'package:anton_1_0/Components/Footer/footer_mobile.dart';
@@ -5,6 +6,7 @@ import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/new_more_abou
 import 'package:anton_1_0/Components/Works/works_mobile.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Style/text.dart';
+import 'package:anton_1_0/Widgets/MobileWidgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
 
 class LandingTablet extends StatelessWidget {
@@ -46,29 +48,43 @@ class LandingTablet extends StatelessWidget {
             'internet.',
             style: landingTabletTxt1,
           ),
-          SizedBox(
-            height: 64,
-          ),
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Text(
-                'About Me',
-                style: h1Tablettxt,
-              ),
-              SizedBox(
-                width: 24,
-              ),
-              Icon(
-                Icons.east,
-                color: greenColor,
-                size: 26,
-              )
-            ],
-          ),
-          AboutMeTablet(),
+          InnerHyperlink(
+              innerHyperlinkText: 'About Me', innerHyperlinkPadding: 64.0),
+          AboutmeMobile(),
           NewMoreAboutMeMobile(),
           WorksMobile(),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Expanded(
+                child: Container(),
+              ),
+              FlatButton(
+                padding: EdgeInsets.symmetric(
+                  horizontal: 28,
+                  vertical: 24,
+                ),
+                onPressed: () {
+                  print('Show More Pressed');
+                },
+                color: navyColor,
+                child: Text(
+                  'Show More',
+                  style: navbarTabletBtnTxt,
+                ),
+                shape: RoundedRectangleBorder(
+                  side: BorderSide(
+                    color: greenColor,
+                    width: 2,
+                  ),
+                  borderRadius: BorderRadius.circular(6),
+                ),
+              ),
+              Expanded(
+                child: Container(),
+              ),
+            ],
+          ),
           EndingMobile(),
           FooterMobile(),
         ],

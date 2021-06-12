@@ -1,5 +1,3 @@
-import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
-import 'package:anton_1_0/Style/text.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
@@ -7,7 +5,11 @@ class InfoEducation extends StatelessWidget {
   String institution;
   String degree;
   String year;
-  InfoEducation(this.institution, this.degree, this.year);
+  TextStyle txtStyle;
+  TextStyle subtxtStyle;
+
+  InfoEducation(this.institution, this.degree, this.year, this.txtStyle,
+      this.subtxtStyle);
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -16,17 +18,17 @@ class InfoEducation extends StatelessWidget {
       children: [
         SelectableText(
           institution,
-          style: navbarTabletDefaultTxt,
+          style: txtStyle,
         ),
         SizedBox(height: 2),
         SelectableText(
           degree,
-          style: bodyMobiletxt2,
+          style: subtxtStyle,
         ),
         SizedBox(height: 2),
         SelectableText(
           year,
-          style: bodyMobiletxt2,
+          style: subtxtStyle,
         ),
       ],
     );

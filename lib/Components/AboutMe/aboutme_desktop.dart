@@ -7,16 +7,15 @@ class AboutmeDesktop extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.only(top: 180),
-      child: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
+      child: Container(
+        color: Colors.deepPurple,
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              //color: Colors.amberAccent,
+              color: Colors.amberAccent,
               width: 675,
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SelectableText(
@@ -66,10 +65,13 @@ class AboutmeDesktop extends StatelessWidget {
               ),
             ),
             SizedBox(width: 80),
-            Padding(
-              padding: const EdgeInsets.only(bottom: 220),
-              child: Image(
-                image: AssetImage('images/New Group 310.png'),
+            Container(
+              color: Colors.red,
+              child: Padding(
+                padding: const EdgeInsets.only(bottom: 220),
+                child: Image(
+                  image: AssetImage('images/New Group 310.png'),
+                ),
               ),
             ),
           ],

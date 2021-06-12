@@ -61,10 +61,10 @@ TextStyle tabHeadingDesktoptxt = TextStyle(
   color: Colors.white,
   fontFamily: 'FiraCode',
   fontWeight: FontWeight.w500,
-  fontSize: 22,
+  fontSize: 21,
 );
 TextStyle tabSubHeadingDesktoptxt = TextStyle(
-  color: Colors.white,
+  color: Colors.grey,
   fontFamily: 'FiraCode',
-  fontSize: 20,
+  fontSize: 18,
 );

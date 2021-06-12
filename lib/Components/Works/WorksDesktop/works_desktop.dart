@@ -78,7 +78,7 @@ class WorksDesktop extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: 40),
+            SizedBox(height: 48),
             FlatButton(
               padding: EdgeInsets.symmetric(
                 horizontal: 28,
