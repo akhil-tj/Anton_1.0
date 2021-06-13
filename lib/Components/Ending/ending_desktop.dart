@@ -1,6 +1,12 @@
 import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+final Uri _emailLaunchUri = Uri(
+  scheme: 'mailto',
+  path: 'akhiltj.dev@gmail.com',
+);
 
 class EndingDesktop extends StatelessWidget {
   @override
@@ -33,22 +39,31 @@ class EndingDesktop extends StatelessWidget {
             onTap: () {
               print('Pressed More About Me');
             },
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Text(
-                  'E-mail Me',
-                  style: h2Desktoptxt,
-                ),
-                SizedBox(
-                  width: 24,
-                ),
-                Icon(
-                  Icons.east,
-                  color: greenColor,
-                  size: 26,
-                )
-              ],
+            child: GestureDetector(
+              onTap: () async {
+                if (await canLaunch(_emailLaunchUri.toString())) {
+                  await launch(_emailLaunchUri.toString());
+                } else {
+                  throw 'Could not launch ${_emailLaunchUri.toString()}';
+                }
+              },
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Text(
+                    'E-mail Me ',
+                    style: h2Desktoptxt,
+                  ),
+                  SizedBox(
+                    width: 24,
+                  ),
+                  Icon(
+                    Icons.east,
+                    color: greenColor,
+                    size: 26,
+                  )
+                ],
+              ),
             ),
           ),
         ],

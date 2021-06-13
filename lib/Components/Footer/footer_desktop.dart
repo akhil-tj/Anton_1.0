@@ -9,8 +9,9 @@ class FooterDesktop extends StatelessWidget {
       child: Container(
         //color: Colors.amber,
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            SizedBox(width: 350),
+            Expanded(child: Container()),
             Column(
               children: [
                 SizedBox(width: 300),
@@ -25,6 +26,7 @@ class FooterDesktop extends StatelessWidget {
                 ),
               ],
             ),
+            Expanded(child: Container()),
           ],
         ),
       ),

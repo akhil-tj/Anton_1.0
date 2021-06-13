@@ -10,20 +10,26 @@ import 'package:responsive_builder/responsive_builder.dart';
 class LandingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        children: [
-          ScreenTypeLayout(
-            mobile: NavbarMobile(),
-            tablet: NavbarTablet(),
-            desktop: NavbarDesktop(),
-          ),
-          ScreenTypeLayout(
-            mobile: LandingMobile(),
-            tablet: LandingTablet(),
-            desktop: LandingDesktop(),
-          ),
-        ],
+    return RawScrollbar(
+      isAlwaysShown: true,
+      thickness: 8,
+      radius: Radius.circular(2),
+      thumbColor: Colors.blueGrey,
+      child: SingleChildScrollView(
+        child: Column(
+          children: [
+            ScreenTypeLayout(
+              mobile: NavbarMobile(),
+              tablet: NavbarTablet(),
+              desktop: NavbarDesktop(),
+            ),
+            ScreenTypeLayout(
+              mobile: LandingMobile(),
+              tablet: LandingTablet(),
+              desktop: LandingDesktop(),
+            ),
+          ],
+        ),
       ),
     );
   }
