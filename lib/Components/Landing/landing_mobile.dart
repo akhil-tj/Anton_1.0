@@ -8,6 +8,7 @@ import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Style/text.dart';
 import 'package:anton_1_0/Widgets/MobileWidgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class LandingMobile extends StatelessWidget {
   @override
@@ -35,9 +36,32 @@ class LandingMobile extends StatelessWidget {
               ],
             ),
           ),
-          SelectableText(
-            'I design, code',
-            style: landingMobileTxt1,
+          Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              SelectableText(
+                'I design,',
+                style: landingMobileTxt1,
+              ),
+              SizedBox(width: 16),
+              SelectableText(
+                'c',
+                style: landingMobileTxt1,
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(0, 4, 4, 0),
+                child: SvgPicture.asset(
+                  'images/Skull.svg',
+                  height: 22,
+                  width: 22,
+                  //color: greenColor,
+                ),
+              ),
+              SelectableText(
+                'de',
+                style: landingMobileTxt1,
+              ),
+            ],
           ),
           SelectableText(
             'and grow',

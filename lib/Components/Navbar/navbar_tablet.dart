@@ -1,6 +1,7 @@
 import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Style/text.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class NavbarTablet extends StatefulWidget {
   @override
@@ -41,8 +42,14 @@ class _NavbarTabletState extends State<NavbarTablet> {
               horizontal: 28,
               vertical: 24,
             ),
-            onPressed: () {
-              print('Resume Pressed');
+            onPressed: () async {
+              const url =
+                  'https://drive.google.com/file/d/1gpNZWsJlzCDZDbMCIQRnKKzQUqwbVScd/view?usp=sharing';
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
             },
             color: navyColor,
             child: Text(

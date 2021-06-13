@@ -6,6 +6,7 @@ import 'package:anton_1_0/Components/Works/WorksDesktop/works_desktop.dart';
 import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class LandingDesktop extends StatelessWidget {
   @override
@@ -52,9 +53,30 @@ class LandingDesktop extends StatelessWidget {
                   ),
                 ],
               ),
-              SelectableText(
-                'I design, code and',
-                style: landingDesktopTxt1,
+              // SelectableText(
+              //   'I design, code and',
+              //   style: landingDesktopTxt1,
+              // ),
+              Row(
+                children: [
+                  SelectableText(
+                    'I design, c',
+                    style: landingDesktopTxt1,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(0, 4, 4, 0),
+                    child: SvgPicture.asset(
+                      'images/Skull.svg',
+                      height: 36,
+                      width: 36,
+                      //color: greenColor,
+                    ),
+                  ),
+                  SelectableText(
+                    'de and',
+                    style: landingDesktopTxt1,
+                  ),
+                ],
               ),
               SelectableText(
                 'grow things on',

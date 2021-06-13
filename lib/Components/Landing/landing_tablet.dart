@@ -7,6 +7,7 @@ import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Style/text.dart';
 import 'package:anton_1_0/Widgets/MobileWidgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class LandingTablet extends StatelessWidget {
   @override
@@ -35,9 +36,26 @@ class LandingTablet extends StatelessWidget {
               ),
             ],
           ),
-          Text(
-            'I design, code and',
-            style: landingTabletTxt1,
+          Row(
+            children: [
+              Text(
+                'I design, c',
+                style: landingTabletTxt1,
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(0, 4, 2, 0),
+                child: SvgPicture.asset(
+                  'images/Skull.svg',
+                  height: 26,
+                  width: 26,
+                  //color: greenColor,
+                ),
+              ),
+              Text(
+                'de and',
+                style: landingTabletTxt1,
+              ),
+            ],
           ),
           Text(
             'grow things on',

@@ -13,6 +13,7 @@ class FooterDesktop extends StatelessWidget {
           children: [
             Expanded(child: Container()),
             Column(
+              //crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 SelectableText(
                   'Designed & Build by Akhil T J',
@@ -27,6 +28,7 @@ class FooterDesktop extends StatelessWidget {
             ),
             SizedBox(width: 232),
             Expanded(child: Container()),
+            //SizedBox(width: 72),
           ],
         ),
       ),
