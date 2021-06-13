@@ -5,7 +5,7 @@ class FooterDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 180),
+      padding: const EdgeInsets.only(top: 220),
       child: Container(
         //color: Colors.amber,
         child: Row(
@@ -14,7 +14,6 @@ class FooterDesktop extends StatelessWidget {
             Expanded(child: Container()),
             Column(
               children: [
-                SizedBox(width: 300),
                 SelectableText(
                   'Designed & Build by Akhil T J',
                   style: tabSubHeadingDesktoptxt,
@@ -26,6 +25,7 @@ class FooterDesktop extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(width: 232),
             Expanded(child: Container()),
           ],
         ),
