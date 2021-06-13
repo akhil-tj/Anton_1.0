@@ -1,5 +1,6 @@
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class FooterMobile extends StatelessWidget {
@@ -21,9 +22,8 @@ class FooterMobile extends StatelessWidget {
                     throw 'Could not launch $url';
                   }
                 },
-                child: Image(
-                  image:
-                      AssetImage('images/ant-design_twitter-circle-filled.png'),
+                child: SvgPicture.asset(
+                  'images/twitter.svg',
                   height: 40,
                   width: 40,
                 ),
@@ -37,8 +37,8 @@ class FooterMobile extends StatelessWidget {
                     throw 'Could not launch $url';
                   }
                 },
-                child: Image(
-                  image: AssetImage('images/ant-design_github-filled.png'),
+                child: SvgPicture.asset(
+                  'images/github.svg',
                   height: 40,
                   width: 40,
                 ),
@@ -52,9 +52,8 @@ class FooterMobile extends StatelessWidget {
                     throw 'Could not launch $url';
                   }
                 },
-                child: Image(
-                  image: AssetImage(
-                      'images/entypo-social_linkedin-with-circle.png'),
+                child: SvgPicture.asset(
+                  'images/linkedin.svg',
                   height: 40,
                   width: 40,
                 ),
@@ -68,8 +67,8 @@ class FooterMobile extends StatelessWidget {
                     throw 'Could not launch $url';
                   }
                 },
-                child: Image(
-                  image: AssetImage('images/ant-design_instagram-filled.png'),
+                child: SvgPicture.asset(
+                  'images/instagram.svg',
                   height: 40,
                   width: 40,
                 ),
@@ -83,9 +82,8 @@ class FooterMobile extends StatelessWidget {
                     throw 'Could not launch $url';
                   }
                 },
-                child: Image(
-                  image:
-                      AssetImage('images/ant-design_behance-circle-filled.png'),
+                child: SvgPicture.asset(
+                  'images/behance.svg',
                   height: 40,
                   width: 40,
                 ),

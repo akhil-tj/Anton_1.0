@@ -54,7 +54,7 @@ class WorksDesktop extends StatelessWidget {
                 Container(
                   width: 300,
                   child: WorkCard(
-                    imagePath: 'images/Rectangle 16.jpg',
+                    imagePath: 'images/Rectangle 18.jpg',
                     workcardbody:
                         'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
                   ),
@@ -63,7 +63,7 @@ class WorksDesktop extends StatelessWidget {
                 Container(
                   width: 300,
                   child: WorkCard(
-                    imagePath: 'images/Rectangle 17.jpg',
+                    imagePath: 'images/Rectangle 20.jpg',
                     workcardbody:
                         'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
                   ),
@@ -72,7 +72,7 @@ class WorksDesktop extends StatelessWidget {
                 Container(
                   width: 300,
                   child: WorkCard(
-                    imagePath: 'images/Rectangle 23.jpg',
+                    imagePath: 'images/Rectangle 24.jpg',
                     workcardbody:
                         'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
                   ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SocialBar extends StatelessWidget {
@@ -9,8 +10,8 @@ class SocialBar extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.max,
         children: [
-          Image(
-            image: AssetImage('images/Line 1.png'),
+          SvgPicture.asset(
+            'images/Line 1.svg',
             height: 90,
           ),
           SizedBox(
@@ -25,8 +26,8 @@ class SocialBar extends StatelessWidget {
                 throw 'Could not launch $url';
               }
             },
-            child: Image(
-              image: AssetImage('images/ant-design_twitter-circle-filled.png'),
+            child: SvgPicture.asset(
+              'images/twitter.svg',
               height: 40,
               width: 40,
             ),
@@ -43,8 +44,8 @@ class SocialBar extends StatelessWidget {
                 throw 'Could not launch $url';
               }
             },
-            child: Image(
-              image: AssetImage('images/ant-design_github-filled.png'),
+            child: SvgPicture.asset(
+              'images/github.svg',
               height: 40,
               width: 40,
             ),
@@ -61,9 +62,8 @@ class SocialBar extends StatelessWidget {
                 throw 'Could not launch $url';
               }
             },
-            child: Image(
-              image:
-                  AssetImage('images/entypo-social_linkedin-with-circle.png'),
+            child: SvgPicture.asset(
+              'images/linkedin.svg',
               height: 40,
               width: 40,
             ),
@@ -80,8 +80,8 @@ class SocialBar extends StatelessWidget {
                 throw 'Could not launch $url';
               }
             },
-            child: Image(
-              image: AssetImage('images/ant-design_instagram-filled.png'),
+            child: SvgPicture.asset(
+              'images/instagram.svg',
               height: 40,
               width: 40,
             ),
@@ -98,8 +98,8 @@ class SocialBar extends StatelessWidget {
                 throw 'Could not launch $url';
               }
             },
-            child: Image(
-              image: AssetImage('images/ant-design_behance-circle-filled.png'),
+            child: SvgPicture.asset(
+              'images/behance.svg',
               height: 40,
               width: 40,
             ),
@@ -107,8 +107,8 @@ class SocialBar extends StatelessWidget {
           SizedBox(
             height: 16,
           ),
-          Image(
-            image: AssetImage('images/Line 1.png'),
+          SvgPicture.asset(
+            'images/Line 2.svg',
             height: 90,
           ),
         ],
