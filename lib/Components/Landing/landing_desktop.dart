@@ -5,7 +5,6 @@ import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeDesktop/more_aboutme
 import 'package:anton_1_0/Components/Works/WorksDesktop/works_desktop.dart';
 import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:anton_1_0/Style/color.dart';
-import 'package:anton_1_0/Widgets/DesktopWidgets/social_bar.dart';
 import 'package:flutter/material.dart';
 
 class LandingDesktop extends StatelessWidget {
