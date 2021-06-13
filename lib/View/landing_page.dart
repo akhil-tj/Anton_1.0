@@ -12,7 +12,7 @@ class LandingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return RawScrollbar(
       isAlwaysShown: true,
-      thickness: 8,
+      thickness: 4,
       radius: Radius.circular(1.5),
       thumbColor: Colors.blueGrey,
       child: SingleChildScrollView(
