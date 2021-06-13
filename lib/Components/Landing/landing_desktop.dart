@@ -12,13 +12,13 @@ class LandingDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.fromLTRB(72, 40, 72, 40),
+      padding: EdgeInsets.fromLTRB(152, 40, 0, 24),
       child: Container(
         //color: Colors.green,
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SocialBar(),
+            //SocialBar(),
             SizedBox(width: 80),
             Container(
               //color: Colors.teal,
