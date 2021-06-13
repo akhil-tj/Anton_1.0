@@ -37386,7 +37386,7 @@ I:function(a,b){var s=null,r=u.t,q=t.p
 return M.aQ(s,T.bO(H.a([T.bX(H.a([O.bq("Works",$.Qq()),T.j0(M.aQ(s,s,s,s,s,s,s,s),1)],q),C.w,C.m,C.k),T.a2(s,28,s),new U.fE("images/Rectangle 16.jpg",r,s),T.a2(s,16,s),new U.fE("images/Rectangle 17.jpg",r,s),T.a2(s,16,s),new U.fE("images/Rectangle 23.jpg",r,s),T.a2(s,48,s)],q),C.w,C.m,C.k),s,s,s,s,new V.al(0,180,0,0),s)}}
 X.Eo.prototype={
 I:function(a,b){var s=null
-return E.ajO(E.aeV(T.bO(H.a([K.aeR(new G.vu(s),new R.vv(s),new E.vw(s)),K.aeR(new M.Em(s),new N.En(s),new M.Ep(s))],t.p),C.w,C.m,C.k),s,C.A,s,C.o),s,C.ao,s,!0,s,G.Q2(),C.y,new P.bS(1.5,1.5),8,C.hx,C.c3)}}
+return E.ajO(E.aeV(T.bO(H.a([K.aeR(new G.vu(s),new R.vv(s),new E.vw(s)),K.aeR(new M.Em(s),new N.En(s),new M.Ep(s))],t.p),C.w,C.m,C.k),s,C.A,s,C.o),s,C.ao,s,!0,s,G.Q2(),C.y,new P.bS(1.5,1.5),4,C.hx,C.c3)}}
 B.Ht.prototype={
 I:function(a,b){var s=null
 return new T.bR(C.rt,T.bO(H.a([G.eG("images/Line 1.svg",90,s),T.a2(s,24,s),D.c6(s,G.eG("images/twitter.svg",40,40),C.A,!1,s,s,s,s,s,s,s,s,s,s,s,new B.a2T(),s,s,s,s,s,s),T.a2(s,16,s),D.c6(s,G.eG("images/github.svg",40,40),C.A,!1,s,s,s,s,s,s,s,s,s,s,s,new B.a2U(),s,s,s,s,s,s),T.a2(s,16,s),D.c6(s,G.eG("images/linkedin.svg",40,40),C.A,!1,s,s,s,s,s,s,s,s,s,s,s,new B.a2V(),s,s,s,s,s,s),T.a2(s,16,s),D.c6(s,G.eG("images/instagram.svg",40,40),C.A,!1,s,s,s,s,s,s,s,s,s,s,s,new B.a2W(),s,s,s,s,s,s),T.a2(s,16,s),D.c6(s,G.eG("images/behance.svg",40,40),C.A,!1,s,s,s,s,s,s,s,s,s,s,s,new B.a2X(),s,s,s,s,s,s),T.a2(s,16,s),G.eG("images/Line 2.svg",90,s)],t.p),C.w,C.m,C.k),s)}}
