@@ -35,7 +35,7 @@ class ListVolunteer extends StatelessWidget {
         SizedBox(height: 16),
         InfoEducation(
           'Designer Me CUCEK',
-          'Community Manger',
+          'Community Manager',
           '2020 - Present',
           navbarTabletDefaultTxt,
           bodyMobiletxt2,
