@@ -1,6 +1,5 @@
 import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeDesktop/vertical_tabbar.dart';
 import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
-import 'package:anton_1_0/Style/color.dart';
 import 'package:flutter/material.dart';
 
 class MoreAboutmeDesktop extends StatelessWidget {

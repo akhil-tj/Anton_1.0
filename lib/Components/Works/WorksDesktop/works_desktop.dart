@@ -9,6 +9,7 @@ class WorksDesktop extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(top: 180),
       child: Container(
+        //color: Colors.orange,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -79,26 +80,34 @@ class WorksDesktop extends StatelessWidget {
               ],
             ),
             SizedBox(height: 48),
-            FlatButton(
-              padding: EdgeInsets.symmetric(
-                horizontal: 28,
-                vertical: 24,
-              ),
-              onPressed: () {
-                print('Show More Pressed');
-              },
-              color: navyColor,
-              child: Text(
-                'Show More',
-                style: navbarDesktopBtnTxt,
-              ),
-              shape: RoundedRectangleBorder(
-                side: BorderSide(
-                  color: greenColor,
-                  width: 2,
+            Row(
+              children: [
+                SizedBox(
+                  width: 420,
                 ),
-                borderRadius: BorderRadius.circular(6),
-              ),
+                // ignore: deprecated_member_use
+                FlatButton(
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 28,
+                    vertical: 24,
+                  ),
+                  onPressed: () {
+                    print('Show More Pressed');
+                  },
+                  color: navyColor,
+                  child: Text(
+                    'Show More',
+                    style: navbarDesktopBtnTxt,
+                  ),
+                  shape: RoundedRectangleBorder(
+                    side: BorderSide(
+                      color: greenColor,
+                      width: 2,
+                    ),
+                    borderRadius: BorderRadius.circular(6),
+                  ),
+                ),
+              ],
             )
           ],
         ),

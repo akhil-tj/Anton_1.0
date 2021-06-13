@@ -1,5 +1,4 @@
 import 'package:anton_1_0/Components/AboutMe/aboutme_mobile.dart';
-import 'package:anton_1_0/Components/AboutMe/aboutme_tablet.dart';
 import 'package:anton_1_0/Components/Ending/ending_mobile.dart';
 import 'package:anton_1_0/Components/Footer/footer_mobile.dart';
 import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/new_more_aboutme_mobile.dart';
@@ -59,6 +58,7 @@ class LandingTablet extends StatelessWidget {
               Expanded(
                 child: Container(),
               ),
+              // ignore: deprecated_member_use
               FlatButton(
                 padding: EdgeInsets.symmetric(
                   horizontal: 28,

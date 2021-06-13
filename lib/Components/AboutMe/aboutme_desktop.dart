@@ -8,12 +8,12 @@ class AboutmeDesktop extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.only(top: 180),
       child: Container(
-        color: Colors.deepPurple,
+        //color: Colors.deepPurple,
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              color: Colors.amberAccent,
+              //color: Colors.amberAccent,
               width: 675,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -66,7 +66,7 @@ class AboutmeDesktop extends StatelessWidget {
             ),
             SizedBox(width: 80),
             Container(
-              color: Colors.red,
+              //color: Colors.red,
               child: Padding(
                 padding: const EdgeInsets.only(bottom: 220),
                 child: Image(

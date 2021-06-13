@@ -2,14 +2,13 @@ import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/info_educatio
 import 'package:anton_1_0/Components/MoreAboutMe/MoreAboutMeMobile/rating_skill.dart';
 import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:anton_1_0/Style/color.dart';
-import 'package:anton_1_0/Style/text.dart';
 import 'package:flutter/material.dart';
 
 class VerticalTabBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.amber,
+      //color: Colors.amber,
       child: DefaultTabController(
         initialIndex: 0,
         length: 5,
@@ -143,7 +142,7 @@ class VerticalTabBar extends StatelessWidget {
             Container(
               height: 500,
               width: 650,
-              color: Colors.blue,
+              //color: Colors.blue,
               child: TabBarView(
                 //physics: NeverScrollableScrollPhysics(),
                 children: [

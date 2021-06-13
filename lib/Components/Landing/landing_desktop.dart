@@ -14,14 +14,14 @@ class LandingDesktop extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.fromLTRB(72, 40, 72, 40),
       child: Container(
-        color: Colors.green,
+        //color: Colors.green,
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SocialBar(),
             SizedBox(width: 80),
             Container(
-              color: Colors.teal,
+              //color: Colors.teal,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [

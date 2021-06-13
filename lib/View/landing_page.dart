@@ -1,5 +1,3 @@
-import 'package:anton_1_0/Components/AboutMe/aboutme_desktop.dart';
-import 'package:anton_1_0/Components/AboutMe/aboutme_mobile.dart';
 import 'package:anton_1_0/Components/Landing/landing_desktop.dart';
 import 'package:anton_1_0/Components/Landing/landing_mobile.dart';
 import 'package:anton_1_0/Components/Landing/landing_tablet.dart';
@@ -17,12 +15,12 @@ class LandingPage extends StatelessWidget {
         children: [
           ScreenTypeLayout(
             mobile: NavbarMobile(),
-            //tablet: NavbarTablet(),
+            tablet: NavbarTablet(),
             desktop: NavbarDesktop(),
           ),
           ScreenTypeLayout(
             mobile: LandingMobile(),
-            //tablet: LandingTablet(),
+            tablet: LandingTablet(),
             desktop: LandingDesktop(),
           ),
         ],
