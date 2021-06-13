@@ -52,9 +52,7 @@ class _ContactViaMailState extends State<ContactViaMail> {
         }
       },
       child: InnerHyperlink(
-          innerHyperlinkText: 'E-mail Me', innerHyperlinkPadding: 64.0),
+          innerHyperlinkText: 'Contact', innerHyperlinkPadding: 64.0),
     );
   }
 }
-
-//new comment

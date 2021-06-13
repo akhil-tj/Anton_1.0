@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:anton_1_0/Components/AboutMe/aboutme_mobile.dart';
 import 'package:anton_1_0/Components/Ending/ending_mobile.dart';
 import 'package:anton_1_0/Components/Footer/footer_mobile.dart';
@@ -17,9 +18,15 @@ class LandingTablet extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            'Hello,',
-            style: landingTabletTxt1,
+          AnimatedTextKit(
+            repeatForever: true,
+            animatedTexts: [
+              TypewriterAnimatedText(
+                'Hello',
+                textStyle: landingTabletTxt1,
+                speed: const Duration(milliseconds: 360),
+              ),
+            ],
           ),
           Row(
             children: [

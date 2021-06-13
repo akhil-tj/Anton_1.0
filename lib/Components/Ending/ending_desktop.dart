@@ -51,7 +51,7 @@ class EndingDesktop extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text(
-                    'E-mail Me ',
+                    'Contact',
                     style: h2Desktoptxt,
                   ),
                   SizedBox(

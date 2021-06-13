@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:anton_1_0/Components/AboutMe/aboutme_desktop.dart';
 import 'package:anton_1_0/Components/Ending/ending_desktop.dart';
 import 'package:anton_1_0/Components/Footer/footer_desktop.dart';
@@ -20,9 +21,16 @@ class LandingDesktop extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SelectableText(
-                'Hello,',
-                style: landingDesktopTxt1,
+              
+              AnimatedTextKit(
+                repeatForever: true,
+                animatedTexts: [
+                  TypewriterAnimatedText(
+                    'Hello',
+                    textStyle: landingDesktopTxt1,
+                    speed: const Duration(milliseconds: 360),
+                  ),
+                ],
               ),
               // SelectableText.rich(
               //   TextSpan(

@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:anton_1_0/Components/AboutMe/aboutme_mobile.dart';
 import 'package:anton_1_0/Components/Ending/ending_mobile.dart';
 import 'package:anton_1_0/Components/Footer/footer_mobile.dart';
@@ -18,9 +19,15 @@ class LandingMobile extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SelectableText(
-            'Hello,',
-            style: landingMobileTxt1,
+          AnimatedTextKit(
+            repeatForever: true,
+            animatedTexts: [
+              TypewriterAnimatedText(
+                'Hello',
+                textStyle: landingMobileTxt1,
+                speed: const Duration(milliseconds: 360),
+              ),
+            ],
           ),
           SelectableText.rich(
             TextSpan(
