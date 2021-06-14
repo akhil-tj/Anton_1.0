@@ -41,17 +41,20 @@ class WorkCard extends StatelessWidget {
                 workcardbody,
                 style: bodyMobiletxt1,
               ),
-              GestureDetector(
-                onTap: () async {
-                  if (await canLaunch(knowmoreUrl)) {
-                    await launch(knowmoreUrl);
-                  } else {
-                    throw 'Could not launch $knowmoreUrl';
-                  }
-                },
-                child: InnerHyperlink(
-                    innerHyperlinkText: 'Read More',
-                    innerHyperlinkPadding: 48.0),
+              MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: GestureDetector(
+                  onTap: () async {
+                    if (await canLaunch(knowmoreUrl)) {
+                      await launch(knowmoreUrl);
+                    } else {
+                      throw 'Could not launch $knowmoreUrl';
+                    }
+                  },
+                  child: InnerHyperlink(
+                      innerHyperlinkText: 'Read More',
+                      innerHyperlinkPadding: 48.0),
+                ),
               ),
             ],
           ),
