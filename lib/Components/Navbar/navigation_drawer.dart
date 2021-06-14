@@ -1,6 +1,7 @@
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class NavigationDrawer extends StatelessWidget {
   @override
@@ -24,6 +25,14 @@ class NavigationDrawer extends StatelessWidget {
                         ),
                         child: GestureDetector(
                           onTap: () {
+                            Fluttertoast.showToast(
+                                msg: "Oops! Under Construction",
+                                toastLength: Toast.LENGTH_SHORT,
+                                gravity: ToastGravity.BOTTOM,
+                                timeInSecForIosWeb: 1,
+                                backgroundColor: orangeColor,
+                                textColor: Colors.white,
+                                fontSize: 16.0);
                             print('Pressed Home');
                           },
                           child: Text(
@@ -38,6 +47,14 @@ class NavigationDrawer extends StatelessWidget {
                         ),
                         child: GestureDetector(
                           onTap: () {
+                            Fluttertoast.showToast(
+                                msg: "Oops! Under Construction",
+                                toastLength: Toast.LENGTH_SHORT,
+                                gravity: ToastGravity.BOTTOM,
+                                timeInSecForIosWeb: 1,
+                                backgroundColor: orangeColor,
+                                textColor: Colors.white,
+                                fontSize: 16.0);
                             print('Pressed Skills');
                           },
                           child: Text(
@@ -52,6 +69,14 @@ class NavigationDrawer extends StatelessWidget {
                         ),
                         child: GestureDetector(
                           onTap: () {
+                            Fluttertoast.showToast(
+                                msg: "Oops! Under Construction",
+                                toastLength: Toast.LENGTH_SHORT,
+                                gravity: ToastGravity.BOTTOM,
+                                timeInSecForIosWeb: 1,
+                                backgroundColor: orangeColor,
+                                textColor: Colors.white,
+                                fontSize: 16.0);
                             print('Pressed Works');
                           },
                           child: Text(
@@ -66,6 +91,14 @@ class NavigationDrawer extends StatelessWidget {
                         ),
                         child: GestureDetector(
                           onTap: () {
+                            Fluttertoast.showToast(
+                                msg: "Oops! Under Construction",
+                                toastLength: Toast.LENGTH_SHORT,
+                                gravity: ToastGravity.BOTTOM,
+                                timeInSecForIosWeb: 1,
+                                backgroundColor: orangeColor,
+                                textColor: Colors.white,
+                                fontSize: 16.0);
                             print('Pressed Contact');
                           },
                           child: Text(

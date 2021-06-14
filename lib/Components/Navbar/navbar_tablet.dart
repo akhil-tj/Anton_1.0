@@ -1,6 +1,7 @@
 import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/Style/text.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class NavbarTablet extends StatefulWidget {
@@ -20,21 +21,69 @@ class _NavbarTabletState extends State<NavbarTablet> {
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(
-            'Home',
-            style: navbarTabletSelectedTxt,
+          GestureDetector(
+            onTap: () {
+              Fluttertoast.showToast(
+                  msg: "Oops! Under Construction",
+                  toastLength: Toast.LENGTH_SHORT,
+                  gravity: ToastGravity.BOTTOM_RIGHT,
+                  timeInSecForIosWeb: 1,
+                  backgroundColor: orangeColor,
+                  textColor: Colors.white,
+                  fontSize: 16.0);
+            },
+            child: Text(
+              'Home',
+              style: navbarTabletSelectedTxt,
+            ),
           ),
-          Text(
-            'Skill',
-            style: navbarTabletDefaultTxt,
+          GestureDetector(
+            onTap: () {
+              Fluttertoast.showToast(
+                  msg: "Oops! Under Construction",
+                  toastLength: Toast.LENGTH_SHORT,
+                  gravity: ToastGravity.BOTTOM_RIGHT,
+                  timeInSecForIosWeb: 1,
+                  backgroundColor: orangeColor,
+                  textColor: Colors.white,
+                  fontSize: 16.0);
+            },
+            child: Text(
+              'Skill',
+              style: navbarTabletDefaultTxt,
+            ),
           ),
-          Text(
-            'Work',
-            style: navbarTabletDefaultTxt,
+          GestureDetector(
+            onTap: () {
+              Fluttertoast.showToast(
+                  msg: "Oops! Under Construction",
+                  toastLength: Toast.LENGTH_SHORT,
+                  gravity: ToastGravity.BOTTOM_RIGHT,
+                  timeInSecForIosWeb: 1,
+                  backgroundColor: orangeColor,
+                  textColor: Colors.white,
+                  fontSize: 16.0);
+            },
+            child: Text(
+              'Work',
+              style: navbarTabletDefaultTxt,
+            ),
           ),
-          Text(
-            'Contact',
-            style: navbarTabletDefaultTxt,
+          GestureDetector(
+            onTap: () {
+              Fluttertoast.showToast(
+                  msg: "Oops! Under Construction",
+                  toastLength: Toast.LENGTH_SHORT,
+                  gravity: ToastGravity.BOTTOM_RIGHT,
+                  timeInSecForIosWeb: 1,
+                  backgroundColor: orangeColor,
+                  textColor: Colors.white,
+                  fontSize: 16.0);
+            },
+            child: Text(
+              'Contact',
+              style: navbarTabletDefaultTxt,
+            ),
           ),
           // ignore: deprecated_member_use
           FlatButton(

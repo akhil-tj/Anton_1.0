@@ -22,28 +22,31 @@ class WorksDesktop extends StatelessWidget {
               children: [
                 Container(
                   width: 300,
+                  height: 500,
                   child: WorkCard(
-                    imagePath: 'images/Rectangle 16.jpg',
+                    imagePath: 'images/ctracker.jpg',
                     workcardbody:
-                        'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
+                        'C-tracker is an android app that let\'s shopowners to collect footprints of their customers. Meanwhile the customer can easily scan the QR code and mark their footprints.',
                   ),
                 ),
                 SizedBox(width: 40),
                 Container(
                   width: 300,
+                  height: 500,
                   child: WorkCard(
-                    imagePath: 'images/Rectangle 17.jpg',
+                    imagePath: 'images/qnet_new2.jpg',
                     workcardbody:
-                        'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
+                        'Meet our product Qnet. An All-In-One Platform To Meet 80% Of Students Need In School, College or University. Class Scheduling, Attendance Alert, Fee Payment, Academic Status etc.',
                   ),
                 ),
                 SizedBox(width: 40),
                 Container(
                   width: 300,
+                  height: 500,
                   child: WorkCard(
-                    imagePath: 'images/Rectangle 23.jpg',
+                    imagePath: 'images/anton_mock.jpg',
                     workcardbody:
-                        'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
+                        'Anton is a portfolio website. Flutter delivers high-quality PWAs that are integrated with a user’s environment, including installation, offline support, and tailored UX.',
                   ),
                 ),
               ],
@@ -53,28 +56,31 @@ class WorksDesktop extends StatelessWidget {
               children: [
                 Container(
                   width: 300,
+                  height: 450,
                   child: WorkCard(
-                    imagePath: 'images/Rectangle 18.jpg',
+                    imagePath: 'images/livangle_new.jpg',
                     workcardbody:
-                        'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
+                        'UI/UX design of an medical ecomerce application for an android device. Fully designed and prototyped in figma.',
                   ),
                 ),
                 SizedBox(width: 40),
                 Container(
                   width: 300,
+                  height: 450,
                   child: WorkCard(
-                    imagePath: 'images/Rectangle 20.jpg',
+                    imagePath: 'images/ttclub_new.jpg',
                     workcardbody:
-                        'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
+                        'UI/UX design of a web dashboard for airline booking, and other travel services. TT Club was fully designed and prototyped in figma.',
                   ),
                 ),
                 SizedBox(width: 40),
                 Container(
                   width: 300,
+                  height: 450,
                   child: WorkCard(
-                    imagePath: 'images/Rectangle 24.jpg',
+                    imagePath: 'images/random_new.jpg',
                     workcardbody:
-                        'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
+                        'Includes random design works. UI/UX, posters, logos, vector arts, mockups, emojis, design clones, redesigns, color palettes etc.',
                   ),
                 ),
               ],
@@ -85,6 +91,7 @@ class WorksDesktop extends StatelessWidget {
                 SizedBox(
                   width: 420,
                 ),
+
                 // ignore: deprecated_member_use
                 FlatButton(
                   padding: EdgeInsets.symmetric(

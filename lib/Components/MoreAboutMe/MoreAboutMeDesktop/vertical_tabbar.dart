@@ -141,7 +141,7 @@ class VerticalTabBar extends StatelessWidget {
             ),
             Container(
               height: 500,
-              width: 650,
+              width: 700,
               //color: Colors.blue,
               child: TabBarView(
                 //physics: NeverScrollableScrollPhysics(),

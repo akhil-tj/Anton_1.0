@@ -32,7 +32,8 @@ dependencies:
   responsive_builder: ^0.4.1
   url_launcher: ^6.0.6
   animated_text_kit: ^4.2.1
-  lottie: ^1.0.1
+  #lottie: ^1.0.1
+  fluttertoast: ^8.0.7
 
 dev_dependencies:
   flutter_test:

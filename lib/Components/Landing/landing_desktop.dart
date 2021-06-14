@@ -21,7 +21,6 @@ class LandingDesktop extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              
               AnimatedTextKit(
                 repeatForever: true,
                 animatedTexts: [
@@ -119,9 +118,18 @@ class LandingDesktop extends StatelessWidget {
                   ],
                 ),
               ),
-              AboutmeDesktop(),
-              MoreAboutmeDesktop(),
-              WorksDesktop(),
+              SingleChildScrollView(
+                  physics: NeverScrollableScrollPhysics(),
+                  scrollDirection: Axis.horizontal,
+                  child: AboutmeDesktop()),
+              SingleChildScrollView(
+                  physics: NeverScrollableScrollPhysics(),
+                  scrollDirection: Axis.horizontal,
+                  child: MoreAboutmeDesktop()),
+              SingleChildScrollView(
+                  physics: NeverScrollableScrollPhysics(),
+                  scrollDirection: Axis.horizontal,
+                  child: WorksDesktop()),
               EndingDesktop(),
               FooterDesktop(),
             ],

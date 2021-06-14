@@ -23,17 +23,6 @@ class WorkCard extends StatelessWidget {
               ),
             ),
           ),
-          // child: ClipRRect(
-          //   borderRadius: BorderRadius.vertical(
-          //     top: Radius.circular(4),
-          //   ),
-          //   child: Image(
-          //     image: NetworkImage(
-          //         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaGw9CB_93gaOs6HfV8Ro8UAbN5MyEh9Aszg&usqp=CAU'),
-          //   ),
-          // ),
-          // width: double.infinity,
-          // color: orangeColor,
         ),
         Container(
           decoration: BoxDecoration(
@@ -48,7 +37,6 @@ class WorkCard extends StatelessWidget {
                 workcardbody,
                 style: bodyMobiletxt1,
               ),
-              //SizedBox(height: 48),
               InnerHyperlink(
                   innerHyperlinkText: 'Know More', innerHyperlinkPadding: 48.0),
             ],

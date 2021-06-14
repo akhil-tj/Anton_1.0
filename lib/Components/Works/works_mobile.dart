@@ -25,29 +25,27 @@ class WorksMobile extends StatelessWidget {
             height: 28,
           ),
           WorkCard(
-            imagePath: 'images/Rectangle 16.jpg',
+            imagePath: 'images/ctracker.jpg',
             workcardbody:
-                'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
+                'C-tracker is an android app that let\'s shopowners to collect footprints of their customers. Meanwhile the customer can easily scan the QR code and mark their footprints.',
           ),
           SizedBox(
             height: 16,
           ),
           WorkCard(
-            imagePath: 'images/Rectangle 17.jpg',
+            imagePath: 'images/qnet_new2.jpg',
             workcardbody:
-                'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
+                'Meet our product Qnet. An All-In-One Platform To Meet 80% Of Students Need In School, College or University. Class Scheduling, Attendance Alert, Fee Payment, Academic Status etc.',
           ),
           SizedBox(
             height: 16,
           ),
           WorkCard(
-            imagePath: 'images/Rectangle 23.jpg',
+            imagePath: 'images/anton_mock.jpg',
             workcardbody:
-                'Turpis et habitant sapien bibendum nunc eget quis. Dictum eu ut sagittis, augue faucibus amet, laoreet cras sollicitudin.',
+                'Anton is a portfolio website. Flutter delivers high-quality PWAs that are integrated with a user’s environment, including installation, offline support, and tailored UX.',
           ),
           SizedBox(height: 48),
-          
-          
         ],
       ),
     );

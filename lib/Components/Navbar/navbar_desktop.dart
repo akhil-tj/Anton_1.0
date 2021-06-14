@@ -1,6 +1,7 @@
 import 'package:anton_1_0/Style/DesktopStyles/text_desktop.dart';
 import 'package:anton_1_0/Style/color.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class NavbarDesktop extends StatefulWidget {
@@ -29,6 +30,14 @@ class _NavbarDesktopState extends State<NavbarDesktop> {
           ),
           TextButton(
             onPressed: () {
+              Fluttertoast.showToast(
+                  msg: "Oops! Under Construction",
+                  toastLength: Toast.LENGTH_SHORT,
+                  gravity: ToastGravity.BOTTOM_RIGHT,
+                  timeInSecForIosWeb: 1,
+                  backgroundColor: orangeColor,
+                  textColor: Colors.white,
+                  fontSize: 16.0);
               print('Skills pressed');
             },
             child: Text(
@@ -41,6 +50,14 @@ class _NavbarDesktopState extends State<NavbarDesktop> {
           ),
           TextButton(
             onPressed: () {
+              Fluttertoast.showToast(
+                  msg: "Oops! Under Construction",
+                  toastLength: Toast.LENGTH_SHORT,
+                  gravity: ToastGravity.BOTTOM_RIGHT,
+                  timeInSecForIosWeb: 1,
+                  backgroundColor: orangeColor,
+                  textColor: Colors.white,
+                  fontSize: 16.0);
               print('Work pressed');
             },
             child: Text(
@@ -53,6 +70,14 @@ class _NavbarDesktopState extends State<NavbarDesktop> {
           ),
           TextButton(
             onPressed: () {
+              Fluttertoast.showToast(
+                  msg: "Oops! Under Construction",
+                  toastLength: Toast.LENGTH_SHORT,
+                  gravity: ToastGravity.BOTTOM_RIGHT,
+                  timeInSecForIosWeb: 1,
+                  backgroundColor: orangeColor,
+                  textColor: Colors.white,
+                  fontSize: 16.0);
               print('Contact pressed');
             },
             child: Text(

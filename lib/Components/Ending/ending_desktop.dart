@@ -39,30 +39,33 @@ class EndingDesktop extends StatelessWidget {
             onTap: () {
               print('Pressed More About Me');
             },
-            child: GestureDetector(
-              onTap: () async {
-                if (await canLaunch(_emailLaunchUri.toString())) {
-                  await launch(_emailLaunchUri.toString());
-                } else {
-                  throw 'Could not launch ${_emailLaunchUri.toString()}';
-                }
-              },
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text(
-                    'Contact',
-                    style: h2Desktoptxt,
-                  ),
-                  SizedBox(
-                    width: 24,
-                  ),
-                  Icon(
-                    Icons.east,
-                    color: greenColor,
-                    size: 26,
-                  )
-                ],
+            child: MouseRegion(
+              cursor: SystemMouseCursors.click,
+              child: GestureDetector(
+                onTap: () async {
+                  if (await canLaunch(_emailLaunchUri.toString())) {
+                    await launch(_emailLaunchUri.toString());
+                  } else {
+                    throw 'Could not launch ${_emailLaunchUri.toString()}';
+                  }
+                },
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      'Contact',
+                      style: h2Desktoptxt,
+                    ),
+                    SizedBox(
+                      width: 24,
+                    ),
+                    Icon(
+                      Icons.east,
+                      color: greenColor,
+                      size: 26,
+                    )
+                  ],
+                ),
               ),
             ),
           ),
