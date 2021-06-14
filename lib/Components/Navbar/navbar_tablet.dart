@@ -21,21 +21,9 @@ class _NavbarTabletState extends State<NavbarTablet> {
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          GestureDetector(
-            onTap: () {
-              Fluttertoast.showToast(
-                  msg: "Oops! Under Construction",
-                  toastLength: Toast.LENGTH_SHORT,
-                  gravity: ToastGravity.BOTTOM_RIGHT,
-                  timeInSecForIosWeb: 1,
-                  backgroundColor: orangeColor,
-                  textColor: Colors.white,
-                  fontSize: 16.0);
-            },
-            child: Text(
-              'Home',
-              style: navbarTabletSelectedTxt,
-            ),
+          Text(
+            'Home',
+            style: navbarTabletSelectedTxt,
           ),
           GestureDetector(
             onTap: () {

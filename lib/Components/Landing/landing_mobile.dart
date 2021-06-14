@@ -10,6 +10,7 @@ import 'package:anton_1_0/Style/text.dart';
 import 'package:anton_1_0/Widgets/MobileWidgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class LandingMobile extends StatelessWidget {
   @override
@@ -100,6 +101,14 @@ class LandingMobile extends StatelessWidget {
                   vertical: 14,
                 ),
                 onPressed: () {
+                  Fluttertoast.showToast(
+                      msg: "Oops! Under Construction",
+                      toastLength: Toast.LENGTH_SHORT,
+                      gravity: ToastGravity.BOTTOM_RIGHT,
+                      timeInSecForIosWeb: 1,
+                      backgroundColor: orangeColor,
+                      textColor: Colors.white,
+                      fontSize: 16.0);
                   print('Show More Pressed');
                 },
                 color: navyColor,

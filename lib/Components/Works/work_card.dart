@@ -1,13 +1,17 @@
 import 'package:anton_1_0/Style/MobileStyles/text_mobile.dart';
 import 'package:anton_1_0/Widgets/MobileWidgets/inner_hyperlink.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 // ignore: must_be_immutable
 class WorkCard extends StatelessWidget {
   String imagePath;
   String workcardbody;
+  String knowmoreUrl;
   WorkCard(
-      {this.imagePath = 'images/Rectangle 16.jpg', this.workcardbody = ''});
+      {required this.imagePath,
+      required this.workcardbody,
+      required this.knowmoreUrl});
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -37,8 +41,18 @@ class WorkCard extends StatelessWidget {
                 workcardbody,
                 style: bodyMobiletxt1,
               ),
-              InnerHyperlink(
-                  innerHyperlinkText: 'Know More', innerHyperlinkPadding: 48.0),
+              GestureDetector(
+                onTap: () async {
+                  if (await canLaunch(knowmoreUrl)) {
+                    await launch(knowmoreUrl);
+                  } else {
+                    throw 'Could not launch $knowmoreUrl';
+                  }
+                },
+                child: InnerHyperlink(
+                    innerHyperlinkText: 'Read More',
+                    innerHyperlinkPadding: 48.0),
+              ),
             ],
           ),
         ),
