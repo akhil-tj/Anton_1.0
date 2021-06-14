@@ -55,7 +55,8 @@ class WorksMobile extends StatelessWidget {
             imagePath: 'images/livangle_new.jpg',
             workcardbody:
                 'UI/UX design of an medical ecomerce application for an android device. Fully designed and prototyped in figma.',
-            knowmoreUrl: 'https://twitter.com/akhil__tj',
+            knowmoreUrl:
+                'https://www.figma.com/file/StSSBI5wSHY7LwVrJ6QaE2/Livangle-Dev-File?node-id=397%3A11521',
           ),
           SizedBox(
             height: 16,
@@ -64,7 +65,8 @@ class WorksMobile extends StatelessWidget {
             imagePath: 'images/ttclub_new.jpg',
             workcardbody:
                 'UI/UX design of a web dashboard for airline booking, and other travel services. TT Club was fully designed and prototyped in figma.',
-            knowmoreUrl: 'https://twitter.com/akhil__tj',
+            knowmoreUrl:
+                'https://www.figma.com/file/9QOD7itHjjGAxkP8358e8z/TT-Club-Final-Portfolio?node-id=0%3A1',
           ),
           SizedBox(
             height: 16,
@@ -73,7 +75,8 @@ class WorksMobile extends StatelessWidget {
             imagePath: 'images/random_new.jpg',
             workcardbody:
                 'Includes random design works. UI/UX, posters, logos, vector arts, mockups, emojis, design clones, redesigns, color palettes etc.',
-            knowmoreUrl: 'https://twitter.com/akhil__tj',
+            knowmoreUrl:
+                'https://www.figma.com/file/7kLvrkq9BaSIcGjB0GiwDV/Random-Portfolio?node-id=0%3A1',
           ),
           SizedBox(height: 48),
         ],
