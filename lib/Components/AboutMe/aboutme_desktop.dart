@@ -70,7 +70,7 @@ class AboutmeDesktop extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.only(bottom: 220),
                 child: Image(
-                  image: AssetImage('images/New Group 310.png'),
+                  image: AssetImage('images/profile pic desktop.png'),
                 ),
               ),
             ),

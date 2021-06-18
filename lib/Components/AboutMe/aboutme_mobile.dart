@@ -25,7 +25,7 @@ class AboutmeMobile extends StatelessWidget {
               image: DecorationImage(
                 fit: BoxFit.cover,
                 image: AssetImage(
-                  'images/Rectangle 6_page-0001.jpg',
+                  'images/profile pic mobile.jpg',
                 ),
               ),
               borderRadius: BorderRadius.circular(

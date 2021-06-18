@@ -1,3 +1,5 @@
+//flutter build web --web-renderer html --release
+
 import 'package:anton_1_0/View/landing_page.dart';
 import 'package:anton_1_0/Components/Navbar/navigation_drawer.dart';
 import 'package:anton_1_0/Widgets/DesktopWidgets/social_bar.dart';
