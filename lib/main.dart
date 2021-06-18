@@ -1,5 +1,6 @@
 //flutter build web --web-renderer html --release
 
+import 'package:anton_1_0/Style/color.dart';
 import 'package:anton_1_0/View/landing_page.dart';
 import 'package:anton_1_0/Components/Navbar/navigation_drawer.dart';
 import 'package:anton_1_0/Widgets/DesktopWidgets/social_bar.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.miniStartTop,
         drawer: NavigationDrawer(),
-        backgroundColor: Color(0xff01002D),
+        backgroundColor: navyColor,
         body: SafeArea(
           child: LandingPage(),
         ),
