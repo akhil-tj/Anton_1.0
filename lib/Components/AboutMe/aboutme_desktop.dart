@@ -33,7 +33,7 @@ class AboutmeDesktop extends StatelessWidget {
                     height: 32,
                   ),
                   SelectableText(
-                    'I\'m a team palyer who likes to socialise & engage in community activities.',
+                    'I\'m a team player who likes to socialise & engage in community activities.',
                     style: bodyDesktoptxt,
                   ),
                   SizedBox(

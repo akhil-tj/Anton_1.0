@@ -44,7 +44,7 @@ class AboutmeMobile extends StatelessWidget {
             height: 14,
           ),
           SelectableText(
-            'I\'m a team palyer who likes to socialise & engage in community activities.',
+            'I\'m a team player who likes to socialise & engage in community activities.',
             style: bodyMobiletxt1,
           ),
           InnerHyperlink(
