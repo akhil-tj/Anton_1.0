@@ -96,7 +96,7 @@ class _NavbarDesktopState extends State<NavbarDesktop> {
             ),
             onPressed: () async {
               const url =
-                  'https://drive.google.com/file/d/1gpNZWsJlzCDZDbMCIQRnKKzQUqwbVScd/view?usp=sharing';
+                  'https://drive.google.com/file/d/1fzKkvOxAaZuKA2u--RkJhls36lT311HO/view?usp=sharing';
               if (await canLaunch(url)) {
                 await launch(url);
               } else {
